@@ -15,11 +15,13 @@ tags:
 This is the first public WoLaLa topic subset. It focuses on meaning, reference, and distributional language in contemporary debates about language models.
 
 ## Entry Points
+
 - [[overviews/Meaning, Reference, and Distributional Language Overview|Meaning, Reference, and Distributional Language Overview]]
 - [[concepts/Meaning and Reference in Language Models|Meaning and Reference in Language Models]]
 - [[analyses/What Would Count as Meaning or Reference in a Language Model|What Would Count as Meaning or Reference in a Language Model]]
 
 ## Included Source Pages
+
 - [[sources/Source - Climbing Towards NLU|Source - Climbing Towards NLU]]
 - [[sources/Source - Distributional Models of Word Meaning|Source - Distributional Models of Word Meaning]]
 - [[sources/Source - Distributional Semantics|Source - Distributional Semantics]]
