@@ -20,7 +20,8 @@ Olsson et al. argue that induction heads may be a major mechanism behind in-cont
 - Source fact: in small attention-only models, the authors present stronger causal/mechanistic evidence that induction heads contribute to in-context learning.
 - Source fact: in larger models with MLPs, the authors present mainly indirect and correlational evidence, and explicitly note possible confounds.
 - Source fact: the paper measures in-context learning mainly as decreasing loss at later token positions in the context, not as task-specific few-shot benchmark performance.
-- Source fact: the authors report an early-training phase change in which induction heads form while in-context learning ability sharply improves.
+- Source fact: the authors report an early training transition in which induction heads emerge.
+- Source fact: they also report a sharp improvement in their measure of in-context learning during the same period.
 - Source fact: the evidence package includes co-occurrence, architectural co-perturbation, test-time attention-head ablations in small models, examples of broader induction-head behavior, mechanistic plausibility, and continuity from small to larger models.
 - Source fact: `Induction heads.pdf` was checked separately as a likely alternate-copy or variant candidate, but this source page treats `Olsson et al. (2022) In-context Learning and Induction Heads.pdf` as canonical.
 
