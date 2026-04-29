@@ -13,11 +13,11 @@ tags:
 A probing classifier is an auxiliary model trained to predict a target property from representations produced by another model. In neural NLP interpretability, probes are used to ask whether linguistic properties are readable or extractable from learned representations.
 
 ## Key Points
-- Source fact: Belinkov defines probing as a framework involving an original model/task/dataset and a separate probing model/task/dataset.
-- Source fact: Belinkov et al. use POS and morphological tagging classifiers to evaluate representations extracted from frozen NMT encoders and decoders.
-- Source fact: Conneau et al. use probing tasks to diagnose sentence embeddings across surface, syntactic, and semantic properties.
-- Source fact: Tenney et al. use edge probing to convert multiple structured linguistic tasks into a common span-labeling or span-pair-labeling format.
-- Source fact: Belinkov emphasizes that probe accuracy alone does not show that the original model uses the probed property.
+- Belinkov defines probing as a framework involving an original model/task/dataset and a separate probing model/task/dataset.
+- Belinkov et al. use POS and morphological tagging classifiers to evaluate representations extracted from frozen NMT encoders and decoders.
+- Conneau et al. use probing tasks to diagnose sentence embeddings across surface, syntactic, and semantic properties.
+- Tenney et al. use edge probing to convert multiple structured linguistic tasks into a common span-labeling or span-pair-labeling format.
+- Belinkov emphasizes that probe accuracy alone does not show that the original model uses the probed property.
 
 ## Details
 [[../sources/Source - Probing Classifiers Promises Shortcomings and Advances|Belinkov]] frames probes broadly: they can be simple linear classifiers, more expressive neural classifiers, parameter-free analyses, or constrained models such as structural probes. The interpretability question changes with the probe: a high-capacity probe may reveal information in principle, while a simpler probe may better support claims about easy extractability.

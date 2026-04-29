@@ -13,12 +13,12 @@ tags:
 The sources considered here support a graded interpretation of probing evidence. Ordinary probe success most safely supports "the property is extractable from the representation under this probe and dataset." Stronger claims about model use, causality, or human-like structure require additional controls, interventions, behavioral tests, or constrained hypotheses.
 
 ## Key Points
-- Source-grounded finding: [[../sources/Source - Probing Classifiers Promises Shortcomings and Advances|Belinkov]] argues that probe accuracy alone is difficult to interpret without baselines, controls, probe complexity accounting, and clear definitions.
-- Source-grounded finding: [[../sources/Source - What Do NMT Models Learn About Morphology|Belinkov et al. on NMT morphology]] show how diagnostic classifiers can compare where and how linguistic information is extractable across model components, such as encoder vs. decoder and lower vs. higher layers.
-- Source-grounded finding: [[../sources/Source - What You Can Cram Into a Single Vector|Conneau et al.]] show that sentence embedding probes can reveal many readable properties, but also that bag-of-vectors and untrained encoders can perform surprisingly well.
-- Source-grounded finding: [[../sources/Source - A Structural Probe for Finding Syntax in Word Representations|Hewitt and Manning]] support a more specific geometric claim: parse-tree distances and depths are recoverable after a linear transformation.
-- Source-grounded finding: [[../sources/Source - BERT Rediscovers the Classical NLP Pipeline|Tenney et al.]] and [[../sources/Source - What Does BERT Learn About the Structure of Language|Jawahar et al.]] independently report layerwise linguistic organization in BERT, but both remain within an inspectability/probing frame.
-- Interpretation: convergent evidence across probe types strengthens confidence that BERT contains extractable linguistic structure, but does not settle whether BERT uses that structure causally.
+- [[../sources/Source - Probing Classifiers Promises Shortcomings and Advances|Belinkov]] argues that probe accuracy alone is difficult to interpret without baselines, controls, probe complexity accounting, and clear definitions.
+- [[../sources/Source - What Do NMT Models Learn About Morphology|Belinkov et al. on NMT morphology]] show how diagnostic classifiers can compare where and how linguistic information is extractable across model components, such as encoder vs. decoder and lower vs. higher layers.
+- [[../sources/Source - What You Can Cram Into a Single Vector|Conneau et al.]] show that sentence embedding probes can reveal many readable properties, but also that bag-of-vectors and untrained encoders can perform surprisingly well.
+- [[../sources/Source - A Structural Probe for Finding Syntax in Word Representations|Hewitt and Manning]] support a more specific geometric claim: parse-tree distances and depths are recoverable after a linear transformation.
+- [[../sources/Source - BERT Rediscovers the Classical NLP Pipeline|Tenney et al.]] and [[../sources/Source - What Does BERT Learn About the Structure of Language|Jawahar et al.]] independently report layerwise linguistic organization in BERT, but both remain within an inspectability/probing frame.
+- convergent evidence across probe types strengthens confidence that BERT contains extractable linguistic structure, but does not settle whether BERT uses that structure causally.
 
 ## Evidence
 The sources differ in what they test:

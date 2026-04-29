@@ -15,15 +15,15 @@ tags:
 The sources considered here support a more differentiated picture than a simple three-way contrast. Fluency or task success does not by itself establish meaning. But semantic assessment also should not be reduced to direct reference alone. The strongest supported conclusion is that meaning claims need to be graded across derivative meaning, distributional structure, grounding, conceptual role, reference, agency-like behavior, and world-linked understanding.
 
 ## Key Points
-- Source-grounded finding: [[../sources/Source - Climbing Towards NLU|Bender and Koller]] argue that form-only training cannot, in principle, learn meaning understood as a relation between form and communicative intent.
-- Source-grounded finding: [[../sources/Source - Distributional Models of Word Meaning|Lenci]] argues that distributional structure captures important aspects of lexical meaning, while remaining limited for inference and compositionality.
-- Source-grounded finding: [[../sources/Source - Distributional Semantics|Lenci and Sahlgren]] argue that distributional semantics should be extended rather than abandoned, especially through multimodality and inferential integration.
-- Source-grounded finding: [[../sources/Source - Do Language Models Refer|Mandelkern and Linzen]] argue that reference may not require the internal beliefs, experiences, or capacities often assumed by grounding objections.
-- Source-grounded finding: [[../sources/Source - Meaning Without Reference in Large Language Models|Piantadosi and Hill]] argue that meaning may be partially constituted by conceptual role and internal relational structure even without settled reference.
-- Source-grounded finding: [[../sources/Source - The Vector Grounding Problem|Coelho Mollo and Millière]] argue that referential grounding is the crucial grounding notion for LLMs, and that it may arise through fine-tuning or even, in limited domains, pre-training alone.
-- Source-grounded finding: [[../sources/Source - Are LLMs Like Libraries or Librarians|Lederman and Mahowald]] argue that derivative-meaning models of LLMs face a challenge from novel reference and may underexplain agent-like semantic behavior.
-- Source-grounded finding: [[../sources/Source - From Word Models to World Models|Wong et al.]] propose a path beyond form-only models by translating language into a structured probabilistic language of thought for world-guided inference.
-- Interpretation: the strongest supported move is not "LLMs understand language" but "the space of semantic claims needs to be disaggregated."
+- [[../sources/Source - Climbing Towards NLU|Bender and Koller]] argue that form-only training cannot, in principle, learn meaning understood as a relation between form and communicative intent.
+- [[../sources/Source - Distributional Models of Word Meaning|Lenci]] argues that distributional structure captures important aspects of lexical meaning, while remaining limited for inference and compositionality.
+- [[../sources/Source - Distributional Semantics|Lenci and Sahlgren]] argue that distributional semantics should be extended rather than abandoned, especially through multimodality and inferential integration.
+- [[../sources/Source - Do Language Models Refer|Mandelkern and Linzen]] argue that reference may not require the internal beliefs, experiences, or capacities often assumed by grounding objections.
+- [[../sources/Source - Meaning Without Reference in Large Language Models|Piantadosi and Hill]] argue that meaning may be partially constituted by conceptual role and internal relational structure even without settled reference.
+- [[../sources/Source - The Vector Grounding Problem|Coelho Mollo and Millière]] argue that referential grounding is the crucial grounding notion for LLMs, and that it may arise through fine-tuning or even, in limited domains, pre-training alone.
+- [[../sources/Source - Are LLMs Like Libraries or Librarians|Lederman and Mahowald]] argue that derivative-meaning models of LLMs face a challenge from novel reference and may underexplain agent-like semantic behavior.
+- [[../sources/Source - From Word Models to World Models|Wong et al.]] propose a path beyond form-only models by translating language into a structured probabilistic language of thought for world-guided inference.
+- the strongest supported move is not "LLMs understand language" but "the space of semantic claims needs to be disaggregated."
 
 ## Evidence
 The skeptical side of the batch is clear. [[../sources/Source - Climbing Towards NLU|Bender and Koller]] give an explicit argument that meaning is not recoverable from form alone, because meaning involves communicative intent and world-linked use. On this view, performance on apparently meaning-sensitive tasks may still reflect successful exploitation of form.

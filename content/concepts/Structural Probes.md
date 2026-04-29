@@ -13,10 +13,10 @@ tags:
 Structural probes are constrained probes that test whether linguistic structure, especially parse-tree structure, is recoverable from representation geometry. In Hewitt and Manning's formulation, a learned linear transformation makes vector distances and norms approximate dependency-tree distances and depths.
 
 ## Key Points
-- Source fact: Hewitt and Manning's distance probe learns a linear transformation where squared L2 distance approximates parse-tree distance.
-- Source fact: their norm probe tests whether squared vector norm approximates parse-tree depth.
-- Source fact: the method evaluates a specific geometric hypothesis, rather than broad syntactic competence.
-- Source fact: the paper reports stronger syntactic geometry in ELMo and BERT than in several baselines.
+- Hewitt and Manning's distance probe learns a linear transformation where squared L2 distance approximates parse-tree distance.
+- their norm probe tests whether squared vector norm approximates parse-tree depth.
+- the method evaluates a specific geometric hypothesis, rather than broad syntactic competence.
+- the paper reports stronger syntactic geometry in ELMo and BERT than in several baselines.
 
 ## Details
 [[../sources/Source - A Structural Probe for Finding Syntax in Word Representations|Hewitt and Manning]] make the structural probe important by constraining what the probe can learn. Instead of training an arbitrary parser on top of representations, the method asks whether a simple transformation exposes a global tree-distance geometry already present in the representation space.

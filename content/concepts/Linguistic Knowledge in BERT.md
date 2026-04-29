@@ -14,10 +14,10 @@ tags:
 Across the ingested probing sources, BERT appears to expose different kinds of linguistic information at different depths: lower layers tend to carry surface or phrase-level information, middle layers syntactic information, and higher layers more semantic or discourse-linked information. These are extractability claims, not automatic claims about causal use.
 
 ## Key Points
-- Source fact: Hewitt and Manning report recoverable dependency-tree geometry from BERT representations.
-- Source fact: Tenney et al. report a layerwise ordering resembling a classical NLP pipeline: POS, parsing, entities, semantic roles, then coreference.
-- Source fact: Jawahar et al. report lower-layer phrase information, middle-layer syntactic information, upper-layer semantic information, and deeper-layer help for harder subject-verb agreement cases.
-- Source fact: both Tenney et al. and Belinkov emphasize that probing observations do not by themselves establish how information is used in downstream predictions.
+- Hewitt and Manning report recoverable dependency-tree geometry from BERT representations.
+- Tenney et al. report a layerwise ordering resembling a classical NLP pipeline: POS, parsing, entities, semantic roles, then coreference.
+- Jawahar et al. report lower-layer phrase information, middle-layer syntactic information, upper-layer semantic information, and deeper-layer help for harder subject-verb agreement cases.
+- both Tenney et al. and Belinkov emphasize that probing observations do not by themselves establish how information is used in downstream predictions.
 
 ## Details
 The current evidence points to a convergent but cautious picture. [[../sources/Source - A Structural Probe for Finding Syntax in Word Representations|Hewitt and Manning]], [[../sources/Source - BERT Rediscovers the Classical NLP Pipeline|Tenney et al.]], and [[../sources/Source - What Does BERT Learn About the Structure of Language|Jawahar et al.]] all find structured linguistic information in BERT, but they do so at different levels of granularity:

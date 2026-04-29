@@ -13,10 +13,10 @@ tags:
 In-context learning is a model's ability to use information in the prompt or context at inference time, without changing its weights. In Olsson et al., the operational focus is loss improvement at later token positions, not only few-shot task performance.
 
 ## Key Points
-- Source fact: Olsson et al. distinguish task-level few-shot learning from a broader loss-based view of in-context learning.
-- Source fact: their main metric compares later-context token loss against earlier-context token loss.
-- Source fact: the paper argues that induction heads may explain much of this general loss-based in-context learning.
-- Source fact: the authors connect in-context learning to safety because model behavior can depend strongly on long context at test time.
+- Olsson et al. distinguish task-level few-shot learning from a broader loss-based view of in-context learning.
+- their main metric compares later-context token loss against earlier-context token loss.
+- the paper argues that induction heads may explain much of this general loss-based in-context learning.
+- the authors connect in-context learning to safety because model behavior can depend strongly on long context at test time.
 
 ## Details
 [[../sources/Source - In-context Learning and Induction Heads|Olsson et al.]] use a broad macro-level measure: tokens later in a context become easier to predict as the model learns to use earlier context. This differs from evaluating a model on a hand-selected few-shot task such as translation or arithmetic.

@@ -14,15 +14,15 @@ tags:
 Olsson et al. make a cumulative case that induction heads are a major mechanism for in-context learning. Crosbie and Shutova add later task-level intervention evidence in large open models. The evidence remains strongest where interventions directly target induction-head behavior, but the case for large-model relevance is now stronger than with Olsson et al. alone.
 
 ## Key Points
-- Source-grounded finding: [[../sources/Source - In-context Learning and Induction Heads|Olsson et al.]] report that induction heads form during an early-training phase change that coincides with a sharp increase in in-context learning ability.
-- Source-grounded finding: [[../sources/Source - In-context Learning and Induction Heads|Olsson et al.]] also report that architectural changes that shift whether or when induction heads form also shift the in-context-learning improvement.
-- Source-grounded finding: [[../sources/Source - In-context Learning and Induction Heads|Olsson et al.]] use direct attention-head ablations in small models, supporting a causal role in those models.
-- Source-grounded finding: [[../sources/Source - In-context Learning and Induction Heads|Olsson et al.]] present examples where induction heads appear to support more abstract behavior than literal repeated-token copying.
-- Source-grounded finding: [[../sources/Source - In-context Learning and Induction Heads|Olsson et al.]] explicitly present the large-model-with-MLPs case as more correlational and indirect than the small attention-only case.
-- Source-grounded finding: [[../sources/Source - Induction Heads as an Essential Mechanism for Pattern Matching in In-context Learning|Crosbie and Shutova]] identify high-prefix-matching heads in Llama-3-8B and InternLM2-20B, then ablate the top 1% and 3% of those heads.
-- Source-grounded finding: in [[../sources/Source - Induction Heads as an Essential Mechanism for Pattern Matching in In-context Learning|Crosbie and Shutova's]] abstract pattern-recognition tasks, induction-head ablations reduce few-shot ICL performance much more than layer-matched random-head ablations.
-- Source-grounded finding: in [[../sources/Source - Induction Heads as an Essential Mechanism for Pattern Matching in In-context Learning|their NLP experiments]], induction-head ablations reduce the benefit from examples, with stronger effects in semantically unrelated label settings.
-- Source-grounded finding: [[../sources/Source - Induction Heads as an Essential Mechanism for Pattern Matching in In-context Learning|Crosbie and Shutova]] use attention knockout to disable the induction attention pattern directly, and its effects are comparable to or stronger than full head ablations in key settings.
+- [[../sources/Source - In-context Learning and Induction Heads|Olsson et al.]] report that induction heads form during an early-training phase change that coincides with a sharp increase in in-context learning ability.
+- [[../sources/Source - In-context Learning and Induction Heads|Olsson et al.]] also report that architectural changes that shift whether or when induction heads form also shift the in-context-learning improvement.
+- [[../sources/Source - In-context Learning and Induction Heads|Olsson et al.]] use direct attention-head ablations in small models, supporting a causal role in those models.
+- [[../sources/Source - In-context Learning and Induction Heads|Olsson et al.]] present examples where induction heads appear to support more abstract behavior than literal repeated-token copying.
+- [[../sources/Source - In-context Learning and Induction Heads|Olsson et al.]] explicitly present the large-model-with-MLPs case as more correlational and indirect than the small attention-only case.
+- [[../sources/Source - Induction Heads as an Essential Mechanism for Pattern Matching in In-context Learning|Crosbie and Shutova]] identify high-prefix-matching heads in Llama-3-8B and InternLM2-20B, then ablate the top 1% and 3% of those heads.
+- in [[../sources/Source - Induction Heads as an Essential Mechanism for Pattern Matching in In-context Learning|Crosbie and Shutova's]] abstract pattern-recognition tasks, induction-head ablations reduce few-shot ICL performance much more than layer-matched random-head ablations.
+- in [[../sources/Source - Induction Heads as an Essential Mechanism for Pattern Matching in In-context Learning|their NLP experiments]], induction-head ablations reduce the benefit from examples, with stronger effects in semantically unrelated label settings.
+- [[../sources/Source - Induction Heads as an Essential Mechanism for Pattern Matching in In-context Learning|Crosbie and Shutova]] use attention knockout to disable the induction attention pattern directly, and its effects are comparable to or stronger than full head ablations in key settings.
 
 ## Evidence
 [[../sources/Source - In-context Learning and Induction Heads|Olsson et al.]] make a six-part argument that combines:

@@ -13,12 +13,12 @@ tags:
 This overview maps a source-grounded topic on neural NLP probing. The topic focuses on what linguistic information is extractable from NMT representations, sentence embeddings, contextual token representations, and BERT layers, while preserving methodological caution about what probing can and cannot prove.
 
 ## Key Points
-- Source fact: Belinkov et al. use POS and morphological tagging probes to compare word/character representations, encoder depth, target language, encoder vs. decoder representations, and attention in NMT systems.
-- Source fact: Conneau et al. introduce sentence-level probing tasks for surface, syntactic, and semantic properties.
-- Source fact: Hewitt and Manning introduce a structural probe for recovering parse-tree distances and depths from transformed contextual word representations.
-- Source fact: Tenney et al. and Jawahar et al. both report layerwise linguistic organization in BERT.
-- Source fact: Belinkov reviews probing limitations and argues for controls, complexity-aware metrics, and interventions for stronger claims.
-- Synthesis: the cluster supports a cautious picture of neural NLP systems as containing extractable linguistic structure, not a settled claim that they use explicit linguistic rules.
+- Belinkov et al. use POS and morphological tagging probes to compare word/character representations, encoder depth, target language, encoder vs. decoder representations, and attention in NMT systems.
+- Conneau et al. introduce sentence-level probing tasks for surface, syntactic, and semantic properties.
+- Hewitt and Manning introduce a structural probe for recovering parse-tree distances and depths from transformed contextual word representations.
+- Tenney et al. and Jawahar et al. both report layerwise linguistic organization in BERT.
+- Belinkov reviews probing limitations and argues for controls, complexity-aware metrics, and interventions for stronger claims.
+- the cluster supports a cautious picture of neural NLP systems as containing extractable linguistic structure, not a settled claim that they use explicit linguistic rules.
 
 ## Topic Map
 - Core concepts: [[../concepts/Probing Classifiers|Probing Classifiers]], [[../concepts/Structural Probes|Structural Probes]], [[../concepts/Sentence Embedding Probing|Sentence Embedding Probing]], [[../concepts/Linguistic Knowledge in BERT|Linguistic Knowledge in BERT]], [[../concepts/Representation Geometry|Representation Geometry]]

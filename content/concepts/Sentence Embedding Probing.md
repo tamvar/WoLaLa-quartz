@@ -13,10 +13,10 @@ tags:
 Sentence embedding probing uses diagnostic tasks to test what information is readable from fixed-size sentence vectors. The Conneau et al. task suite probes surface, syntactic, and semantic properties while requiring only a single sentence embedding as input.
 
 ## Key Points
-- Source fact: Conneau et al. introduce ten probing tasks spanning sentence length, word content, word order, tree depth, top constituents, tense, subject/object number, semantic odd-man-out, and coordination inversion.
-- Source fact: the tasks are designed to be architecture-agnostic and to avoid requiring token-level representations.
-- Source fact: strong bag-of-vectors and untrained-encoder results show that lexical and architectural priors can explain some probe success.
-- Source fact: Jawahar et al. reuse these tasks to analyze BERT layer by layer.
+- Conneau et al. introduce ten probing tasks spanning sentence length, word content, word order, tree depth, top constituents, tense, subject/object number, semantic odd-man-out, and coordination inversion.
+- the tasks are designed to be architecture-agnostic and to avoid requiring token-level representations.
+- strong bag-of-vectors and untrained-encoder results show that lexical and architectural priors can explain some probe success.
+- Jawahar et al. reuse these tasks to analyze BERT layer by layer.
 
 ## Details
 [[../sources/Source - What You Can Cram Into a Single Vector|Conneau et al.]] make sentence embedding probing useful for comparing encoders, but the paper also shows that its claims are limited by task design and baselines. A classifier that recovers word content or tense from a sentence vector does not necessarily show that the encoder has human-like grammatical knowledge.

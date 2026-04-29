@@ -14,11 +14,11 @@ tags:
 Alessandro Lenci and Magnus Sahlgren provide a book-length synthesis of distributional semantics as a theory of meaning, a modeling framework, and a cognitive hypothesis about how language use shapes semantic knowledge. The book expands the shorter Lenci review into a fuller defense of distributional semantics while explicitly engaging critiques about grounding, embodiment, data scale, and whether distributional models are "climbing the right hill."
 
 ## Key Points
-- Source fact: the book frames distributional semantics as a cross-disciplinary approach spanning computational linguistics, AI, and cognitive science.
-- Source fact: it treats distributional semantics not only as a practical modeling toolkit but also as a theory of semantic representation and a cognitive hypothesis about the role of usage in shaping meaning.
-- Source fact: the later chapters explicitly engage grounding, multimodality, cognitive science, and the limits of compositional and inferential competence in current models.
-- Source fact: the conclusion argues that distributional semantics remains indispensable even though current DSMs are still far from human semantic competence.
-- Source fact: the authors reject both naive triumphalism and blanket dismissal, and instead argue for richer data, incrementality, multimodality, and integration with inference and communication.
+- the book frames distributional semantics as a cross-disciplinary approach spanning computational linguistics, AI, and cognitive science.
+- it treats distributional semantics not only as a practical modeling toolkit but also as a theory of semantic representation and a cognitive hypothesis about the role of usage in shaping meaning.
+- the later chapters explicitly engage grounding, multimodality, cognitive science, and the limits of compositional and inferential competence in current models.
+- the conclusion argues that distributional semantics remains indispensable even though current DSMs are still far from human semantic competence.
+- the authors reject both naive triumphalism and blanket dismissal, and instead argue for richer data, incrementality, multimodality, and integration with inference and communication.
 
 ## Details
 The book begins from the core distributional thought that meaning can be represented through a vector encoding of contextual distributions. It then develops that framework across classical count models, neural models, evaluation methods, lexical semantics, compositionality, grounding, and cognitive-science applications.
@@ -27,7 +27,7 @@ For the present debate, the conclusion chapter is especially important. Lenci an
 
 At the same time, the book is not a defense of text-only sufficiency in any simple sense. The authors stress limits in inference, argument structure, compositionality, discourse, and human-like generalization. Their forward-looking proposal is to improve distributional models through better data, multimodality, incremental learning, and stronger integration with pragmatic and inferential models of communication.
 
-## Synthesis / Interpretation
+## Interpretation
 This source deepens the cluster by showing that distributional semantics is not just a technical backdrop to embeddings. It is an explicit research program about meaning, one that now interacts directly with LLM debates over grounding, understanding, and human-like competence.
 
 The book extends [[Source - Distributional Models of Word Meaning|Lenci]] from a concise review into a broader theoretical map. It also provides a more direct counterweight to strong anti-distributional critiques, while still admitting serious limits in current models.

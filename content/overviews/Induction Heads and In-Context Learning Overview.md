@@ -14,13 +14,13 @@ tags:
 This overview tracks a topic centered on induction heads and in-context learning. It is distinct from the neural NLP probing literature because it focuses on transformer circuits and causal or mechanistic evidence, not diagnostic readout of linguistic properties.
 
 ## Key Points
-- Source fact: Olsson et al. define induction heads as attention heads that perform repeated-sequence completion.
-- Source fact: the paper connects induction-head formation to an early-training phase change where in-context learning sharply improves.
-- Source fact: the strongest evidence is in small attention-only models; evidence for large models with MLPs is more indirect and correlational.
-- Source fact: Crosbie and Shutova evaluate induction heads in Llama-3-8B and InternLM2-20B using prefix-matching scores, head ablations, and attention knockout.
-- Source fact: Crosbie and Shutova report that ablating high-prefix-matching heads damages few-shot ICL performance more than comparable random-head ablations, especially on abstract pattern-recognition tasks and semantically unrelated label settings.
-- Synthesis: prefix-matching scores should be treated as candidate-head evidence unless supported by stronger causal tests such as ablations or attention knockout.
-- Synthesis: the cluster should track mechanisms, circuits, ablations, attention-pattern interventions, and training dynamics rather than treating induction heads as another probe result.
+- Olsson et al. define induction heads as attention heads that perform repeated-sequence completion.
+- the paper connects induction-head formation to an early-training phase change where in-context learning sharply improves.
+- the strongest evidence is in small attention-only models; evidence for large models with MLPs is more indirect and correlational.
+- Crosbie and Shutova evaluate induction heads in Llama-3-8B and InternLM2-20B using prefix-matching scores, head ablations, and attention knockout.
+- Crosbie and Shutova report that ablating high-prefix-matching heads damages few-shot ICL performance more than comparable random-head ablations, especially on abstract pattern-recognition tasks and semantically unrelated label settings.
+- prefix-matching scores should be treated as candidate-head evidence unless supported by stronger causal tests such as ablations or attention knockout.
+- the cluster should track mechanisms, circuits, ablations, attention-pattern interventions, and training dynamics rather than treating induction heads as another probe result.
 
 ## Topic Map
 - Core concepts: [[../concepts/Induction Heads|Induction Heads]], [[../concepts/In-Context Learning|In-Context Learning]]

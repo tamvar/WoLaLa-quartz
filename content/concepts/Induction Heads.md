@@ -14,10 +14,10 @@ tags:
 Induction heads are transformer attention heads that help continue repeated token patterns. In Olsson et al.'s framing, they search the context for an earlier occurrence of the current token and promote the token that followed it, implementing behavior like `[A][B] ... [A] -> [B]`.
 
 ## Key Points
-- Source fact: Olsson et al. define induction heads behaviorally by prefix matching and copying on repeated random token sequences.
-- Source fact: the proposed mechanism involves at least two heads in small attention-only models: a previous-token head and a later induction head.
-- Source fact: induction heads are algorithmic rather than memorized n-gram tables; the rule applies across arbitrary token identities.
-- Source fact: the authors argue that in larger models induction heads may support fuzzier or more abstract sequence completion, such as nearest-neighbor-style pattern continuation.
+- Olsson et al. define induction heads behaviorally by prefix matching and copying on repeated random token sequences.
+- the proposed mechanism involves at least two heads in small attention-only models: a previous-token head and a later induction head.
+- induction heads are algorithmic rather than memorized n-gram tables; the rule applies across arbitrary token identities.
+- the authors argue that in larger models induction heads may support fuzzier or more abstract sequence completion, such as nearest-neighbor-style pattern continuation.
 
 ## Details
 [[../sources/Source - In-context Learning and Induction Heads|Olsson et al.]] define the basic circuit as:

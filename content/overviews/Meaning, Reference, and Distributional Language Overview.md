@@ -15,15 +15,15 @@ tags:
 This overview maps a WoLaLa strand focused on meaning, reference, and distributional language. It is not about generic LLM performance. It is about how language models bear on claims about meaning, grounding, understanding, agency, and the relation between language use, internal structure, and world modeling.
 
 ## Key Points
-- Source-grounded finding: [[../sources/Source - Climbing Towards NLU|Bender and Koller]] argue that form-only training is insufficient for meaning or understanding in the strong sense tied to communicative intent.
-- Source-grounded finding: [[../sources/Source - Do Language Models Refer|Mandelkern and Linzen]] argue that LM words may still refer if their training strings inherit the right natural histories.
-- Source-grounded finding: [[../sources/Source - Distributional Models of Word Meaning|Lenci]] presents distributional semantics as a serious usage-based model of lexical meaning, but also emphasizes its limits for fine-grained relations, inference, and full compositionality.
-- Source-grounded finding: [[../sources/Source - Distributional Semantics|Lenci and Sahlgren]] defend distributional semantics as a broad research program while arguing that richer data, multimodality, and inferential integration are needed to extend its semantic reach.
-- Source-grounded finding: [[../sources/Source - Meaning Without Reference in Large Language Models|Piantadosi and Hill]] argue that meaning may arise from conceptual role and internal relational structure even where direct reference is absent or incomplete.
-- Source-grounded finding: [[../sources/Source - The Vector Grounding Problem|Coelho Mollo and Millière]] argue that the crucial grounding issue for LLMs is referential grounding, and that it may be achievable without treating embodiment as necessary.
-- Source-grounded finding: [[../sources/Source - Are LLMs Like Libraries or Librarians|Lederman and Mahowald]] argue that novel reference pressures purely library-like interpretations of LLMs and may support attributing limited agency.
-- Source-grounded finding: [[../sources/Source - From Word Models to World Models|Wong et al.]] propose a more structured architecture in which language is translated into a probabilistic language of thought for world modeling and reasoning.
-- Synthesis: the literature supports a richer contrast between form-only skepticism, derivative meaning, grounding, externalist reference, conceptual-role meaning, usage-based distributional semantics, limited-agency interpretations, and constructive world-model integration.
+- [[../sources/Source - Climbing Towards NLU|Bender and Koller]] argue that form-only training is insufficient for meaning or understanding in the strong sense tied to communicative intent.
+- [[../sources/Source - Do Language Models Refer|Mandelkern and Linzen]] argue that LM words may still refer if their training strings inherit the right natural histories.
+- [[../sources/Source - Distributional Models of Word Meaning|Lenci]] presents distributional semantics as a serious usage-based model of lexical meaning, but also emphasizes its limits for fine-grained relations, inference, and full compositionality.
+- [[../sources/Source - Distributional Semantics|Lenci and Sahlgren]] defend distributional semantics as a broad research program while arguing that richer data, multimodality, and inferential integration are needed to extend its semantic reach.
+- [[../sources/Source - Meaning Without Reference in Large Language Models|Piantadosi and Hill]] argue that meaning may arise from conceptual role and internal relational structure even where direct reference is absent or incomplete.
+- [[../sources/Source - The Vector Grounding Problem|Coelho Mollo and Millière]] argue that the crucial grounding issue for LLMs is referential grounding, and that it may be achievable without treating embodiment as necessary.
+- [[../sources/Source - Are LLMs Like Libraries or Librarians|Lederman and Mahowald]] argue that novel reference pressures purely library-like interpretations of LLMs and may support attributing limited agency.
+- [[../sources/Source - From Word Models to World Models|Wong et al.]] propose a more structured architecture in which language is translated into a probabilistic language of thought for world modeling and reasoning.
+- the literature supports a richer contrast between form-only skepticism, derivative meaning, grounding, externalist reference, conceptual-role meaning, usage-based distributional semantics, limited-agency interpretations, and constructive world-model integration.
 
 ## Topic Map
 - Core concept: [[../concepts/Meaning and Reference in Language Models|Meaning and Reference in Language Models]]
