@@ -14,6 +14,8 @@ WoLaLa Wiki is a research wiki about language models and language. It is designe
 
 The wiki is meant to be useful in two ways at once. It is a place to find durable, source-grounded summaries of important literatures. It is also a place where knowledge can be actively improved through questions, discussion, clarification, revision, and the careful incorporation of new understanding.
 
+Technically, WoLaLa Wiki builds on the high-level "LLM Wiki" pattern proposed by Andrej Karpathy in his [LLM Wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f), which describes a way of turning source material into a maintained, cumulative markdown knowledge base. WoLaLa Wiki extends that general idea into a domain-focused research wiki on language models and language, with added emphasis on source-grounded synthesis, questioning, revision, and public publication.
+
 ## What WoLaLa Wiki Is
 The central focus of WoLaLa Wiki is the relation between language models and language.
 
