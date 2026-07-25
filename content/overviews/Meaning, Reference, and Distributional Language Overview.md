@@ -14,7 +14,7 @@ tags:
 ## Summary
 This overview maps a WoLaLa strand focused on meaning, reference, and distributional language. It is not about generic LLM performance. It is about how language models bear on claims about meaning, grounding, understanding, agency, and the relation between language use, internal structure, and world modeling. Its later bridge material extends that core by asking how distinctions in linguistic competence and disciplinary uses of `understanding` affect the force of those semantic claims.
 
-This page is the canonical top-level overview for strand 3 in the nine-strand WoLaLa map.
+This page is the canonical top-level overview for Meaning, Reference, and Distributional Language (strand 3) in the nine-strand WoLaLa map.
 
 ## Key Points
 - [[../sources/Source - Climbing Towards NLU|Bender and Koller]] argue that form-only training is insufficient for meaning or understanding in the strong sense tied to communicative intent.

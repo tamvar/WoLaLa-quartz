@@ -17,13 +17,13 @@ This strand tracks what language models do or do not appear to know about langua
 
 ## Scope
 
-This overview is the top-level map for strand 1. It includes both behavioral and representation-focused evidence about linguistic competence, while keeping distinct the neighboring questions of semantic interpretation, mechanistic explanation, and broader cognition.
+This overview is the top-level map for Linguistic Competence and Limitations (strand 1). It includes both behavioral and representation-focused evidence about linguistic competence, while keeping distinct the neighboring questions of semantic interpretation, mechanistic explanation, and broader cognition.
 
 The existing probing cluster is a major subordinate map rather than a replacement for the strand:
 
 - [[Neural NLP Probing Overview]]
 
-Mechanistic work on induction heads is also relevant where it bears on context-sensitive linguistic behavior, but its main home remains strand 7:
+Mechanistic work on induction heads is also relevant where it bears on context-sensitive linguistic behavior, but its main home remains [[Mind Design and Reverse Engineering Overview|Mind Design and Reverse Engineering]] (strand 7):
 
 - [[Mind Design and Reverse Engineering Overview]]
 - [[Induction Heads and In-Context Learning Overview]]

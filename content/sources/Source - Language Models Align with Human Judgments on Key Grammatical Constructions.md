@@ -15,8 +15,13 @@ tags:
 ## Summary
 Jennifer Hu, Kyle Mahowald, Gary Lupyan, Anna Ivanova, and Roger Levy compare language-model behavior with human judgments on selected grammatical constructions. Its central contribution for WoLaLa is not simply to report alignment, but to make grammatical-construction judgment a concrete meeting point between linguistic theory, behavioral evaluation, and model interpretation. The source is therefore a useful bridge from general claims about competence to a more targeted question about how model behavior tracks human acceptability or construction-sensitive intuitions.
 
+## Strand Connections
+
+- Primary: [[../overviews/Theoretical Linguistics and Language Models Overview|Theoretical Linguistics and Language Models]] (strand 4)
+- Secondary: [[../overviews/Applications and Best Practices Overview|Applications and Best Practices]] (strand 6)
+
 ## WoLaLa Relevance
-This source supports strand 4 directly and has a secondary role for strand 6 because it bears on evaluation design. It helps the theoretical overview by representing a more measured empirical position than either strong refutation claims or strong skeptical replies. In the current wiki, it can serve as a brief anchor for the idea that human-model comparison is most useful when tied to a specific linguistic phenomenon and explicit judgment task.
+This source primarily supports [[../overviews/Theoretical Linguistics and Language Models Overview|Theoretical Linguistics and Language Models]] and has a secondary role for [[../overviews/Applications and Best Practices Overview|Applications and Best Practices]] because it bears on evaluation design. It helps the theoretical overview by representing a more measured empirical position than either strong refutation claims or strong skeptical replies. In the current wiki, it can serve as a brief anchor for the idea that human-model comparison is most useful when tied to a specific linguistic phenomenon and explicit judgment task.
 
 ## Limitation Or Open Question
 Alignment on selected constructions should not be overread. The main open question is how much such alignment licenses claims about deeper grammatical competence, shared representation, or broader theoretical convergence. A construction-judgment result may be informative without by itself deciding the status of LLMs as linguistic theories.

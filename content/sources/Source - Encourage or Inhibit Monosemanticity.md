@@ -15,8 +15,13 @@ tags:
 ## Summary
 Hanqi Yan, Yanzheng Xiang, Guangyi Chen, Yifei Wang, Lin Gui, and Yulan He study monosemanticity as a mechanistic-interpretability problem: whether internal features become cleaner and more one-meaning-per-unit, or remain entangled and polysemantic. For WoLaLa, the source matters as a modest bridge into the mind-design strand because it bears on what kinds of internal decomposition current neural systems make available to explanation.
 
+## Strand Connections
+
+- Primary: [[../overviews/Mind Design and Reverse Engineering Overview|Mind Design and Reverse Engineering]] (strand 7)
+- Secondary: [[../overviews/Historical Perspectives on Language, Mind, and Modeling Overview|Historical Perspectives on Language, Mind, and Modeling]] (strand 9)
+
 ## WoLaLa Relevance
-This source primarily supports strand 7 and secondarily strand 9. It does not by itself make a language-centered theoretical claim, but it sharpens the reverse-engineering question of what sort of internal representational units contemporary models expose. That makes it useful as a cautious companion to the induction-head material, especially when the wiki needs examples of explanatory ambitions narrower than full understanding claims but still relevant to mind-design style analysis.
+This source primarily supports [[../overviews/Mind Design and Reverse Engineering Overview|Mind Design and Reverse Engineering]] and secondarily [[../overviews/Historical Perspectives on Language, Mind, and Modeling Overview|Historical Perspectives on Language, Mind, and Modeling]]. It does not by itself make a language-centered theoretical claim, but it sharpens the reverse-engineering question of what sort of internal representational units contemporary models expose. That makes it useful as a cautious companion to the induction-head material, especially when the wiki needs examples of explanatory ambitions narrower than full understanding claims but still relevant to mind-design style analysis.
 
 ## Limitation Or Open Question
 The main caution is scope. Monosemanticity work can be highly technical without yet showing much about language, meaning, or cognition specifically. The open question is how much cleaner feature decomposition actually advances explanation of language-relevant competence rather than interpretability of isolated internal patterns.
