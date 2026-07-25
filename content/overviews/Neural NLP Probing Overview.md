@@ -12,6 +12,10 @@ tags:
 ## Summary
 This overview maps a source-grounded topic on neural NLP probing. The topic focuses on what linguistic information is extractable from NMT representations, sentence embeddings, contextual token representations, and BERT layers, while preserving methodological caution about what probing can and cannot prove.
 
+This page is a subordinate technical cluster overview within the broader strand map:
+
+- [[Linguistic Competence and Limitations Overview]]
+
 ## Key Points
 - Belinkov et al. use POS and morphological tagging probes to compare word/character representations, encoder depth, target language, encoder vs. decoder representations, and attention in NMT systems.
 - Conneau et al. introduce sentence-level probing tasks for surface, syntactic, and semantic properties.
@@ -33,6 +37,7 @@ This overview maps a source-grounded topic on neural NLP probing. The topic focu
 The cluster boundary with [[Induction Heads and In-Context Learning Overview]] should remain explicit. Neural NLP probing asks what information is readable from representations under controlled probes or related analyses. The induction-head cluster asks what transformer circuits implement behavior and what causal evidence supports that claim.
 
 ## Related Pages
+- [[Linguistic Competence and Limitations Overview]]
 - [[Induction Heads and In-Context Learning Overview]]
 - [[../concepts/Probing Classifiers|Probing Classifiers]]
 - [[../analyses/What Probing Evidence Can Support|What Probing Evidence Can Support]]

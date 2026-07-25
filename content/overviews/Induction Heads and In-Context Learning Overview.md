@@ -13,6 +13,10 @@ tags:
 ## Summary
 This overview tracks a topic centered on induction heads and in-context learning. It is distinct from the neural NLP probing literature because it focuses on transformer circuits and causal or mechanistic evidence, not diagnostic readout of linguistic properties.
 
+This page is a subordinate technical cluster overview within the broader strand map:
+
+- [[Mind Design and Reverse Engineering Overview]]
+
 ## Key Points
 - Olsson et al. define induction heads as attention heads that perform repeated-sequence completion.
 - the paper connects induction-head formation to an early-training phase change where in-context learning sharply improves.
@@ -43,6 +47,8 @@ This cluster asks: what transformer circuits implement context-sensitive behavio
 Cross-links are useful only where a page directly compares evidence standards, causal claims, or methods. Avoid folding induction heads into the probing taxonomy unless a future source explicitly uses probing-style methodology.
 
 ## Related Pages
+- [[Mind Design and Reverse Engineering Overview]]
+- [[Linguistic Competence and Limitations Overview]]
 - [[Neural NLP Probing Overview]]
 - [[../concepts/Induction Heads|Induction Heads]]
 - [[../analyses/Evidence That Induction Heads Support In-Context Learning|Evidence That Induction Heads Support In-Context Learning]]
