@@ -2,7 +2,7 @@
 title: WoLaLa Wiki
 type: overview
 status: active
-updated: 2026-07-25
+updated: 2026-08-02
 tags:
   - overview
   - wolala
@@ -10,39 +10,34 @@ tags:
 ---
 
 ## Summary
-WoLaLa Wiki is a cumulative research wiki on the theoretical foundations and ramifications of large language models from multiple scholarly viewpoints. The public subset exposes the full nine-strand WoLaLa structure while also highlighting a smaller set of especially developed starting points for readers who want the richest currently available entry routes.
+WoLaLa Wiki is a cumulative research wiki on the theoretical foundations and ramifications of large language models from multiple scholarly viewpoints. The public release exposes the full nine-strand WoLaLa architecture together with cross-cutting overviews, reusable concepts, question-driven analyses, and source-grounded research notes.
 
 The WoLaLa workshop Call for Papers supplied an early practical orientation map, but the wiki is not primarily a workshop companion site. It is meant as a durable research infrastructure for cumulative theoretical inquiry.
 
-## Explore the Nine Strands
-- [[overviews/Linguistic Competence and Limitations Overview|1. Linguistic Competence and Limitations]] — strongest current technical cluster coverage, with probing and competence-linked source notes.
-- [[overviews/Critical and Skeptical Perspectives Overview|2. Critical and Skeptical Perspectives]] — substantial coverage through meaning, understanding, and theory-facing criticism.
-- [[overviews/Meaning, Reference, and Distributional Language Overview|3. Meaning, Reference, and Distributional Language]] — currently the most developed philosophy-of-language-facing strand.
-- [[overviews/Theoretical Linguistics and Language Models Overview|4. Theoretical Linguistics and Language Models]] — now visible through brief notes on current theory disputes and usage-based background.
-- [[overviews/Cultural, Cognitive, and SSH Perspectives Overview|5. Cultural, Cognitive, and SSH Perspectives]] — still lighter, but now includes bridge material on cognition and interpretation.
-- [[overviews/Applications and Best Practices Overview|6. Applications and Best Practices]] — currently skeletal; mainly a map of language-focused evaluation and method needs that bear on foundational understanding.
-- [[overviews/Mind Design and Reverse Engineering Overview|7. Mind Design and Reverse Engineering]] — combines mechanistic work with historical and philosophical background.
-- [[overviews/Neuroscientific Perspectives Overview|8. Neuroscientific Perspectives]] — currently skeletal; present as a bridge map rather than a mature source cluster.
-- [[overviews/Historical Perspectives on Language, Mind, and Modeling Overview|9. Historical Perspectives on Language, Mind, and Modeling]] — historical and philosophical backbone linking current debates to older AI and language traditions.
+## Explore the Nine Formal Strands
+- [[overviews/Linguistic Competence and Limitations Overview|1. Linguistic Competence and Limitations]] — linguistic structure, competence claims, behavioral limits, and evidence standards.
+- [[overviews/Critical and Skeptical Perspectives Overview|2. Critical and Skeptical Perspectives]] — critical evaluation of claims about understanding, cognition, explanation, and linguistic ability.
+- [[overviews/Meaning, Reference, and Distributional Language Overview|3. Meaning, Reference, and Distributional Language]] — distributional evidence, meaning-as-use, grounding, reference, and semantic interpretation.
+- [[overviews/Theoretical Linguistics and Language Models Overview|4. Theoretical Linguistics and Language Models]] — relations among language models, generative linguistics, usage-based theory, constructionist approaches, and formal explanation.
+- [[overviews/Cultural, Cognitive, and SSH Perspectives Overview|5. Cultural, Cognitive, and SSH Perspectives]] — cultural, cognitive-scientific, social, and humanities-facing interpretations of language models.
+- [[overviews/Applications and Best Practices Overview|6. Applications and Best Practices]] — language-centered evaluation, research practice, responsible use, and methodological guidance.
+- [[overviews/Mind Design and Reverse Engineering Overview|7. Mind Design and Reverse Engineering]] — mechanisms, explanatory decomposition, representation, and the design of language-capable systems.
+- [[overviews/Neuroscientific Perspectives Overview|8. Neuroscientific Perspectives]] — model-brain comparisons, neural evidence, and the limits of neuroscientific analogy.
+- [[overviews/Historical Perspectives on Language, Mind, and Modeling Overview|9. Historical Perspectives on Language, Mind, and Modeling]] — historical foundations connecting present debates to earlier theories of language, mind, computation, and AI.
 
 ## Current Coverage
-- all nine strands above are publicly available and directly navigable from this page
-- deeper cluster overviews already available inside the public subset:
-  - [[overviews/Meaning, Reference, and Distributional Language Overview|Meaning, Reference, and Distributional Language]]
-  - [[overviews/Neural NLP Probing Overview|Neural NLP Probing]]
-  - [[overviews/Induction Heads and In-Context Learning Overview|Induction Heads and In-Context Learning]]
-- several strands are represented through concise brief source pages rather than full deep notes
-- strands 6 and 8 remain intentionally skeletal because the current repository evidence there is still thin
-- strand balance is a navigational aid rather than a quota system; theoretical, linguistic, philosophical, cognitive, neuroscientific, and historical clusters may legitimately dominate where they best serve the project's central purpose
+The current public release contains **234 pages**: **211 source pages**, **11 overviews**, **8 concepts**, **3 analyses**, and **1 index page**.
+
+- **Formal strands — 9 overviews.** The nine linked strand pages above provide the top-level knowledge architecture.
+- **Cross-cutting overviews — 2 pages.** [[overviews/Neural NLP Probing Overview|Neural NLP Probing]] connects evidence about extractable linguistic structure across several strands; [[overviews/Induction Heads and In-Context Learning Overview|Induction Heads and In-Context Learning]] connects mechanistic and intervention evidence about context-sensitive behavior.
+- **Concepts — 8 pages.** Reusable pages such as [[concepts/Meaning and Reference in Language Models|Meaning and Reference in Language Models]], [[concepts/Probing Classifiers|Probing Classifiers]], and [[concepts/Induction Heads|Induction Heads]] stabilize recurring distinctions and methods.
+- **Analyses — 3 pages.** [[analyses/Evidence That Induction Heads Support In-Context Learning|Evidence That Induction Heads Support In-Context Learning]], [[analyses/What Probing Evidence Can Support|What Probing Evidence Can Support]], and [[analyses/What Would Count as Meaning or Reference in a Language Model|What Would Count as Meaning or Reference in a Language Model]] provide question-driven synthesis across sources.
+- **Individual sources — 211 pages.** Source pages provide the evidence base and are reachable through the relevant overviews, concepts, analyses, site navigation, and search.
 
 ## Source Depth
 - `indexed`: a source is mapped in overviews or manifests but does not yet have a published source page
 - `brief`: a source has a short orienting page explaining why it matters and where it fits
 - `deep`: a source has a fuller note and stronger integration into concept, overview, or analysis pages
 
-## Most Developed Starting Points
-These are recommended starting points because they currently have the deepest public coverage. They are not the only available strands: the full nine-strand structure remains browsable above.
-
-- [[overviews/Meaning, Reference, and Distributional Language Overview|Meaning, Reference, and Distributional Language Overview]] — strongest current entry point for philosophy-of-language and semantic interpretation questions.
-- [[overviews/Neural NLP Probing Overview|Neural NLP Probing Overview]] — strongest current entry point for extractable linguistic structure and probing-based evidence.
-- [[overviews/Induction Heads and In-Context Learning Overview|Induction Heads and In-Context Learning Overview]] — strongest current entry point for mechanism and intervention evidence tied to in-context learning behavior.
+## How to Navigate
+Begin with any of the nine formal strands for a field-level map. Use the two cross-cutting overviews when a question spans strand boundaries, then follow their links into concepts, analyses, and individual source pages. Site search provides a direct route to a named work, author, method, or problem.
