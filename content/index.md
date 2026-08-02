@@ -26,13 +26,13 @@ The WoLaLa workshop Call for Papers supplied an early practical orientation map,
 - [[overviews/Historical Perspectives on Language, Mind, and Modeling Overview|9. Historical Perspectives on Language, Mind, and Modeling]] — historical foundations connecting present debates to earlier theories of language, mind, computation, and AI.
 
 ## Current Coverage
-The current public release contains **234 pages**: **211 source pages**, **11 overviews**, **8 concepts**, **3 analyses**, and **1 index page**.
+The current public release contains **261 pages**: **238 source pages**, **11 overviews**, **8 concepts**, **3 analyses**, and **1 index page**.
 
 - **Formal strands — 9 overviews.** The nine linked strand pages above provide the top-level knowledge architecture.
 - **Cross-cutting overviews — 2 pages.** [[overviews/Neural NLP Probing Overview|Neural NLP Probing]] connects evidence about extractable linguistic structure across several strands; [[overviews/Induction Heads and In-Context Learning Overview|Induction Heads and In-Context Learning]] connects mechanistic and intervention evidence about context-sensitive behavior.
 - **Concepts — 8 pages.** Reusable pages such as [[concepts/Meaning and Reference in Language Models|Meaning and Reference in Language Models]], [[concepts/Probing Classifiers|Probing Classifiers]], and [[concepts/Induction Heads|Induction Heads]] stabilize recurring distinctions and methods.
 - **Analyses — 3 pages.** [[analyses/Evidence That Induction Heads Support In-Context Learning|Evidence That Induction Heads Support In-Context Learning]], [[analyses/What Probing Evidence Can Support|What Probing Evidence Can Support]], and [[analyses/What Would Count as Meaning or Reference in a Language Model|What Would Count as Meaning or Reference in a Language Model]] provide question-driven synthesis across sources.
-- **Individual sources — 211 pages.** Source pages provide the evidence base and are reachable through the relevant overviews, concepts, analyses, site navigation, and search.
+- **Individual sources — 238 pages.** Source pages provide the evidence base and are reachable through the relevant overviews, concepts, analyses, site navigation, and search.
 
 ## Source Depth
 - `indexed`: a source is mapped in overviews or manifests but does not yet have a published source page

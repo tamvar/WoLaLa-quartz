@@ -2,7 +2,7 @@
 title: Critical and Skeptical Perspectives Overview
 type: overview
 status: active
-updated: 2026-07-27
+updated: 2026-08-02
 tags:
   - overview
   - strand-2
@@ -55,7 +55,7 @@ Coverage is substantial, but spread across several neighboring pages rather than
   - [[Cultural, Cognitive, and SSH Perspectives Overview]]
   - [[Historical Perspectives on Language, Mind, and Modeling Overview]]
 
-The strand already has strong critical anchors, but many later candidates remain only indexed.
+The strand already has strong critical anchors, but many later candidates remain only indexed. Methodological criticism should also remain symmetrical: [[../sources/Source - Chomsky's Galilean Explanatory Style|Allott, Lohndal, and Rey]] show why broad predictive fit need not explain an internal linguistic system, while the limits of idealization and theory-selected crucial data keep formal explanatory programs empirically answerable.
 
 ## Representative Sources
 
@@ -76,6 +76,7 @@ The strand already has strong critical anchors, but many later candidates remain
 - [[../sources/Source - Do Language Models Understand Us|Do Language Models Understand Us?]] — `existing_deep`; critical; central; high. Strong affirmative reply arguing that large language models already illuminate understanding, social intelligence, and dialogic cognition.
 - [[../sources/Source - Why Large Language Models Are Poor Theories of Human Linguistic Cognition|Why Large Language Models Are Poor Theories of Human Linguistic Cognition]] — `existing_brief`; critical; central; high. Direct reply source for theory-of-language and cognition claims.
 - [[../sources/Source - Why Linguistics Will Thrive in the 21st Century|Why Linguistics Will Thrive in the 21st Century]] — `existing_brief`; critical; central; medium. Direct reply insisting that predictive success does not replace interpretable linguistic theory or solve the acquisition problem.
+- [[../sources/Source - Chomsky's Galilean Explanatory Style|Chomsky's Galilean Explanatory Style]] — `existing_deep`; methodological; supporting; high. Defense of idealized competence explanation that also clarifies where auxiliary assumptions and theory-guided evidence can insulate a program.
 - [[../sources/Source - Testing AI on Language Comprehension Tasks Reveals Insensitivity to Underlying Meaning|Testing AI on Language Comprehension Tasks Reveals Insensitivity to Underlying Meaning]] — `existing_brief`; critical; central; high. Comprehension-benchmark critique tying fluent output to weak underlying semantic sensitivity.
 - [[../sources/Source - Noam Chomsky The False Promise of ChatGPT|Noam Chomsky: The False Promise of ChatGPT]] — `existing_brief`; historical; supporting; medium. High-visibility public statement of the anti-LLM explanatory critique.
 - [[../sources/Source - Fundamental Principles of Linguistic Structure Are Not Represented by o3|Fundamental Principles of Linguistic Structure Are Not Represented by o3]] — `existing_brief`; critical; supporting; medium. Current syntax-focused counterclaim that surface success does not amount to hierarchical structural competence.

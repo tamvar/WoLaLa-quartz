@@ -2,7 +2,7 @@
 title: Cultural, Cognitive, and SSH Perspectives Overview
 type: overview
 status: active
-updated: 2026-07-29
+updated: 2026-08-02
 tags:
   - overview
   - strand-5
@@ -62,6 +62,8 @@ Coverage is partial but real. The strand now has enough material to show several
 
 The strand still depends more on cross-links than on a dedicated concept cluster, but its internal families are now clearer.
 
+The Companion brief portfolio adds a coherent acquisition-and-architecture bridge. [[../sources/Source - Language as a Branch of Psychology|Gleitman]] combines constrained distributional evidence with syntactic bootstrapping; [[../sources/Source - Chomsky and Signed Languages|Lillo-Martin]] makes modality and accessible input central; and [[../sources/Source - Atypical Acquisition|Smith and Tsimpli]] separate formal language from communication and general cognition through atypical cases. [[../sources/Source - Multilingualism and Chomsky's Generative Grammar|Kupisch et al.]] add multilingual representation/performance distinctions, while [[../sources/Source - Chomsky and Fodor on Modularity|Allott and Smith]] prevent `modularity` from naming one undifferentiated architectural thesis.
+
 ## Cluster Map
 
 ### Language, thought, and cognitive architecture
@@ -79,6 +81,9 @@ This cluster asks how far language-model success bears on broader cognition, str
   - [[../sources/Source - Concepts in a Probabilistic Language of Thought|Concepts in a Probabilistic Language of Thought]]
   - [[../sources/Source - Four Problems Solved by the Probabilistic Language of Thought|Four Problems Solved by the Probabilistic Language of Thought]]
   - [[../sources/Source - What Artificial Neural Networks Can Tell Us About Human Language Acquisition|What Artificial Neural Networks Can Tell Us About Human Language Acquisition]]
+  - [[../sources/Source - Language as a Branch of Psychology|Language as a Branch of Psychology]]
+  - [[../sources/Source - Atypical Acquisition|Atypical Acquisition]]
+  - [[../sources/Source - Chomsky and Fodor on Modularity|Chomsky and Fodor on Modularity]]
 
 ### Human versus machine understanding
 
@@ -101,6 +106,7 @@ This cluster is about interpretive standards: what `understanding` means across 
 This cluster asks how communication, coordination, and social learning shape language and therefore should shape how language-model evidence is interpreted.
 
 - organizing works:
+  - [[../sources/Source - Chomsky and Pragmatics|Chomsky and Pragmatics]]
   - [[../sources/Source - Origins of Human Communication|Origins of Human Communication]]
   - [[../sources/Source - A Natural History of Human Thinking|A Natural History of Human Thinking]]
   - [[../sources/Source - Language Structure Is Partly Determined by Social Structure|Language Structure Is Partly Determined by Social Structure]]
@@ -140,6 +146,9 @@ Some sources belong primarily elsewhere but remain important here because they c
 - [[../sources/Source - Human and Machine Language Understanding|Human and Machine Language Understanding]] — `existing_deep`; survey; central; high. Frames disciplinary differences that matter for SSH and cognitive interpretation.
 - [[../sources/Source - The Debate Over Understanding in AI's Large Language Models|The Debate Over Understanding in AI's Large Language Models]] — `existing_deep`; survey; central; high. Strong comparative-cognition bridge on why benchmark success and humanlike understanding can come apart.
 - [[../sources/Source - The Modularity of Mind|The Modularity of Mind]] — `existing_deep`; foundational; central; high. Classical architecture source separating modular input systems from wider central cognition.
+- [[../sources/Source - Language as a Branch of Psychology|Language as a Branch of Psychology]] — `existing_brief`; historical; supporting; high. Cognitive-science and acquisition account joining syntactic bootstrapping, constrained experience, and cautious machine comparison.
+- [[../sources/Source - Chomsky and Signed Languages|Chomsky and Signed Languages]] — `existing_brief`; bridge; supporting; high. Cross-modal evidence on hierarchy, accessible input, emergence, and cognitive consequences of deprivation.
+- [[../sources/Source - Atypical Acquisition|Atypical Acquisition]] — `existing_brief`; empirical; supporting; high. Dissociation cases spanning deprivation, neurodevelopmental variation, formal language, and communication.
 - [[../sources/Source - What Are Large Language Models Supposed to Model|What Are Large Language Models Supposed to Model?]] — `existing_brief`; methodological; central; high. Compact framing note distinguishing behavioral, neural, and cognitive interpretation targets for LLM comparison.
 - [[../sources/Source - Are LLMs Like Libraries or Librarians|Are LLMs Like Libraries or Librarians]] — `existing_deep`; bridge; central; high. Useful on limited agency and epistemic interpretation.
 - [[../sources/Source - From Word Models to World Models|From Word Models to World Models]] — `existing_deep`; bridge; central; medium. Constructive world-model proposal with wider cognitive implications.

@@ -2,7 +2,7 @@
 title: What Would Count as Meaning or Reference in a Language Model
 type: analysis
 status: active
-updated: 2026-07-29
+updated: 2026-08-02
 tags:
   - analysis
   - meaning
@@ -24,6 +24,17 @@ The sources considered here support a differentiated evidential picture. Fluency
 - the strongest supported move is not "LLMs understand language" but "the space of semantic claims needs to be disaggregated."
 
 ## Evidential Questions
+
+### Which claim is the evidence meant to support?
+
+The four Companion chapters add a prior diagnostic step. Before ranking evidence as weak or strong, identify its target.
+
+- Evidence that a model distinguishes ambiguous structures, tracks lexical constraints, or composes interpretations bears on internal semantic organization. [[../sources/Source - Chomsky on Meaning and Reference|Pietroski]] shows why this target need not be defined through fixed extensions.
+- Evidence that outputs are reliably linked to objects, histories, or environments bears on reference. It does not follow merely from internal semantic sensitivity, and [[../sources/Source - Chomsky on Semantics|Glanzberg]] shows why truth-conditional interpretation remains an additional theoretical commitment.
+- Evidence that a model disambiguates, enriches, or derives implicatures in context bears on pragmatic competence. [[../sources/Source - Chomsky and Pragmatics|Allott and Wilson]] make mindreading and overt communicative intention stronger claims than context sensitivity alone.
+- Evidence that internal states coordinate perception, language, thought, and action around the same targets may support a representational explanation. [[../sources/Source - Chomsky and Intentionality|Collins and Rey]] show that theorist-relative representation, causal sensitivity, and genuine intentional content remain competing interpretations.
+
+This structure is not a ladder on which every higher item entails the lower ones. A system may exhibit substantial internal semantic organization without settled reference, or participate in externally anchored reference without human-like pragmatic or intentional organization.
 
 ### What defeats a simple fluency-based inference?
 
@@ -82,6 +93,10 @@ The constructive lesson matters as well. If stronger semantic claims are to be m
 - [[../overviews/Meaning, Reference, and Distributional Language Overview|Meaning, Reference, and Distributional Language Overview]]
 
 ## Sources
+- [[../sources/Source - Chomsky on Meaning and Reference|Source - Chomsky on Meaning and Reference]]
+- [[../sources/Source - Chomsky on Semantics|Source - Chomsky on Semantics]]
+- [[../sources/Source - Chomsky and Pragmatics|Source - Chomsky and Pragmatics]]
+- [[../sources/Source - Chomsky and Intentionality|Source - Chomsky and Intentionality]]
 - [[../sources/Source - Climbing Towards NLU|Source - Climbing Towards NLU]]
 - [[../sources/Source - Do Language Models Refer|Source - Do Language Models Refer]]
 - [[../sources/Source - From Word Models to World Models|Source - From Word Models to World Models]]

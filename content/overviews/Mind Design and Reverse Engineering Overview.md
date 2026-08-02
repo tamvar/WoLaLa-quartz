@@ -2,7 +2,7 @@
 title: Mind Design and Reverse Engineering Overview
 type: overview
 status: active
-updated: 2026-07-29
+updated: 2026-08-02
 tags:
   - overview
   - strand-7
@@ -57,13 +57,16 @@ Coverage is partial but already cluster-backed.
 
 This strand already has a real mechanistic core, but its historical and comparative wings remain thinner.
 
-The main boundary with probing is now clearer: [[../analyses/What Probing Evidence Can Support|What Probing Evidence Can Support]] handles the graded move from extractability to stronger internal-evidence claims, while this strand is responsible for cases where causal contribution or broader explanatory decomposition is the real question.
+The main boundary with probing is now clearer: [[../analyses/What Probing Evidence Can Support|What Probing Evidence Can Support]] handles the graded move from extractability to stronger internal-evidence claims, while this strand is responsible for cases where causal contribution or broader explanatory decomposition is the real question. [[../sources/Source - Chomsky's Galilean Explanatory Style|the Galilean-methodology discussion]] adds a complementary constraint: abstraction is legitimate, but a compact explanatory decomposition must remain discriminable from alternatives rather than earning authority from elegance alone.
+
+Three Companion chapters now sharpen the decomposition vocabulary. [[../sources/Source - The Architecture of the Computation|Adger]] separates device, procedure, and memory; [[../sources/Source - The Chomsky Hierarchy|Hunter]] treats grammatical categories as selective memory for combinatory distinctions; and [[../sources/Source - Chomsky and Fodor on Modularity|Allott and Smith]] distinguish a competence faculty from an encapsulated processing module. These are complementary, not interchangeable, analyses: a causal circuit, an abstractly separable competence, a memory class, and an input processor answer different reverse-engineering questions.
 
 ## Representative Sources
 
 - [[../sources/Source - In-context Learning and Induction Heads|In-context Learning and Induction Heads]] — `existing_deep`; foundational; central; high. Current mechanistic anchor linking circuit formation to in-context learning.
 - [[../sources/Source - Induction Heads as an Essential Mechanism for Pattern Matching in In-context Learning|Induction Heads as an Essential Mechanism for Pattern Matching in In-context Learning]] — `existing_deep`; recent; central; high. Extends the mechanistic story into larger open models with intervention-based evidence.
 - [[../sources/Source - Mind Design III|Mind Design III]] — `existing_deep`; foundational; central; high. Historical source container on intentionality, computation, embodiment, and explanatory programs.
+- [[../sources/Source - Chomsky and Intentionality|Chomsky and Intentionality]] — `existing_deep`; foundational; supporting; high. Architectural dispute over whether linguistic representation is intentional content or theorist-relative formal classification, sharpened by the common-currency problem across interfaces.
 - [[../sources/Source - Computing Machinery and Intelligence|Computing Machinery and Intelligence]] — `existing_deep`; foundational; supporting; medium. Turing's classic behavioral framing of machine intelligence remains a core historical reference point for mind-design debates.
 - [[../sources/Source - From Word Models to World Models|From Word Models to World Models]] — `existing_deep`; bridge; supporting; medium. Useful constructive alternative for explanation beyond token prediction alone.
 - [[../sources/Source - The Bitter Lesson|The Bitter Lesson]] — `existing_deep`; foundational; central; high. Historical-methodological anchor arguing that general search-and-learning methods scale better than knowledge-heavy AI strategies.
@@ -86,10 +89,14 @@ The main boundary with probing is now clearer: [[../analyses/What Probing Eviden
 - [[../sources/Source - Language Models Show Human-Like Content Effects on Reasoning Tasks|Language Models Show Human-Like Content Effects on Reasoning Tasks]] — `existing_deep`; bridge; supporting; medium. Behavior-level cognition comparison source useful for separating human-like reasoning patterns from stronger mechanistic equivalence claims.
 - [[../sources/Source - Structured Flexible and Robust|Structured Flexible and Robust]] — `existing_brief`; bridge; supporting; medium. Hybrid reasoning benchmark paper showing that structured decomposition can improve robustness beyond pure language-model pattern completion.
 - [[../sources/Source - A Deep Learning Framework for Neuroscience|A Deep Learning Framework for Neuroscience]] — `existing_deep`; methodological; supporting; high. Reverse-engineering anchor on objective functions, learning rules, and architectures as explanatory handles for biological and artificial systems.
+- [[../sources/Source - Chomsky's Galilean Explanatory Style|Chomsky's Galilean Explanatory Style]] — `existing_deep`; methodological; supporting; high. Bridge from linguistic idealization to reverse-engineering standards: target selection and controlled contrasts matter, but simplicity and predictive fit do not by themselves provide mechanism.
 - [[../sources/Source - Toward an Integration of Deep Learning and Neuroscience|Toward an Integration of Deep Learning and Neuroscience]] — `existing_brief`; bridge; supporting; medium. Earlier convergence proposal treating cost functions, learning rules, and specialized architectures as shared explanatory currency across AI and neuroscience.
 - [[../sources/Source - More Is Different|More Is Different]] — `existing_brief`; foundational; supporting; medium. Emergence-and-levels background explaining why higher-level explanatory structure may remain indispensable even under reductionism.
 - [[../sources/Source - Mind Design II|Mind Design II]] — `existing_deep`; foundational; supporting; medium. Selective deep historical container on symbolic AI, intentionality, Dreyfus-style critique, and connectionist alternatives.
 - [[../sources/Source - The Modularity of Mind|The Modularity of Mind]] — `existing_deep`; foundational; supporting; medium. Selective architectural classic on modular input systems and the limits of extending that model to central cognition.
+- [[../sources/Source - The Architecture of the Computation|The Architecture of the Computation]] — `existing_brief`; foundational; central; high. Explicit device–procedure–memory framework for architectural explanation and locality.
+- [[../sources/Source - The Chomsky Hierarchy|The Chomsky Hierarchy]] — `existing_brief`; foundational; supporting; high. Connects formal generative capacity with which distinctions a finite mechanism can preserve or forget.
+- [[../sources/Source - Chomsky and Fodor on Modularity|Chomsky and Fodor on Modularity]] — `existing_brief`; foundational; supporting; high. Separates competence modules from processing modules and uses dissociation evidence to constrain architecture claims.
 - [[../sources/Source - Parallel Distributed Processing Volume 2|Parallel Distributed Processing Volume 2]] — `existing_deep`; foundational; supporting; medium. Selective deep connectionist container on distributed representation, learning, and the attempt to link cognitive modeling with biological plausibility.
 - [[../sources/Source - On Language and Connectionism|On Language and Connectionism]] — `existing_deep`; historical; supporting; medium. Language-acquisition case study showing how connectionist ambitions were tested against structured morphology and productivity rather than only against generic learning benchmarks.
 - [[../sources/Source - Giving a Damn|Giving a Damn]] — `existing_deep`; bridge; supporting; medium. Selective dialogue volume extending Haugelandian themes of embodiment, intentionality, and rational structure.

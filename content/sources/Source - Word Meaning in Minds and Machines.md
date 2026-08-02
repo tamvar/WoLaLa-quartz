@@ -35,7 +35,7 @@ But the paper insists that these successes cover only part of what a theory of w
 
 This gives the paper a useful shape for WoLaLa. It is not a simple anti-LLM document. It allows that engineering-oriented NLP can be highly successful without being psychologically realistic, and it leaves open the possibility that more grounded or conceptually richer architectures could narrow the gap. The critique is targeted: current systems remain overly text-bound and insufficiently grounded.
 
-The source also helps bridge strands 3 and 5. It sits between philosophy-of-language and cognitive-semantics disputes about meaning, while also bearing directly on how language-model evidence should be interpreted. It complements [[../sources/Source - Distributional Models of Word Meaning|Distributional Models of Word Meaning]] and [[../sources/Source - Meaning without Reference in Large Language Models|Meaning without reference in large language models]] by clarifying why distributional success may be genuine but still incomplete.
+The source also helps bridge strands 3 and 5. It sits between philosophy-of-language and cognitive-semantics disputes about meaning, while also bearing directly on how language-model evidence should be interpreted. It complements [[../sources/Source - Distributional Models of Word Meaning|Distributional Models of Word Meaning]] and [[../sources/Source - Meaning Without Reference in Large Language Models|Meaning without reference in large language models]] by clarifying why distributional success may be genuine but still incomplete.
 
 ## Interpretation
 This is one of the clearest current sources for a moderate position on language models and meaning. It avoids the false choice between saying that text-trained models tell us nothing about semantics and saying that strong performance already amounts to a theory of human conceptual meaning. Its practical value for WoLaLa is that it specifies which semantic capacities are better modeled by current systems and which remain weakly captured.
@@ -47,7 +47,7 @@ The paper also sharpens a recurrent methodological distinction. A model can be u
 - [[../overviews/Meaning, Reference, and Distributional Language Overview|Meaning, Reference, and Distributional Language Overview]]
 - [[../sources/Source - Distributional Models of Word Meaning|Source - Distributional Models of Word Meaning]]
 - [[../sources/Source - Distributional Semantics|Source - Distributional Semantics]]
-- [[../sources/Source - Meaning without Reference in Large Language Models|Source - Meaning without Reference in Large Language Models]]
+- [[../sources/Source - Meaning Without Reference in Large Language Models|Source - Meaning without Reference in Large Language Models]]
 
 ## Source Identification
 - Authors: Brenden M. Lake and Gregory L. Murphy

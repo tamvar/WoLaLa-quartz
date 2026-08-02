@@ -2,7 +2,7 @@
 title: Meaning, Reference, and Distributional Language Overview
 type: overview
 status: active
-updated: 2026-07-29
+updated: 2026-08-02
 tags:
   - overview
   - meaning
@@ -26,6 +26,21 @@ This page is the canonical top-level overview for Meaning, Reference, and Distri
 ## Topic Map
 - Core concept: [[../concepts/Meaning and Reference in Language Models|Meaning and Reference in Language Models]]
 - Core analysis: [[../analyses/What Would Count as Meaning or Reference in a Language Model|What Would Count as Meaning or Reference in a Language Model]]
+
+## Four Connected Questions
+
+Four questions recur across the strand but should not be used as substitutes for one another.
+
+| Question | Primary target | What evidence would not settle it |
+| --- | --- | --- |
+| Lexical and compositional meaning | Internal resources that distinguish readings, constrain use, and combine systematically | Stable reference is not required for every meaningful distinction; distributional association alone does not establish productive composition |
+| Reference | Relations among speakers or systems, expressions, circumstances, and worldly targets | Internal semantic organization does not by itself fix reference; failure of fixed lexical extension does not show that acts of reference are impossible |
+| Pragmatic interpretation | Inference from encoded material and context to an intended interpretation | Linguistic decoding or context-sensitive output can occur without evidence of mindreading or communicative intention |
+| Intentionality | Whether states are genuinely about something under an aspect and can succeed, fail, or misrepresent | Behavioral aboutness and theorist-relative interpretation do not by themselves establish content-bearing states for the system |
+
+[[../sources/Source - Chomsky on Meaning and Reference|Pietroski]] supplies the internalist meaning/reference distinction; [[../sources/Source - Chomsky on Semantics|Glanzberg]] separates semantic evidence from truth-conditional architecture; [[../sources/Source - Chomsky and Pragmatics|Allott and Wilson]] separate decoding from inferential recovery of communicator meaning; and [[../sources/Source - Chomsky and Intentionality|Collins and Rey]] expose the unresolved choice between intentional and nonintentional accounts of linguistic representation. Together they sharpen the vocabulary of the strand without yielding a single Chomskyan solution.
+
+[[../sources/Source - Chomsky on the Evolution of the Language Faculty|Reboul]] adds a distinct evolutionary proposal: human concepts may be strongly decoupled from immediate perception and action, and the central innovation may be the interface between Merge and a conceptual-intentional system. This does not solve reference or grounding, but it identifies action-independence and counterfactual or fictional content as a separate target from communicative fluency.
 
 ## Literature Families
 
@@ -52,6 +67,7 @@ This family asks what kind of world-link, natural history, or interaction would 
   - [[../sources/Source - The Vector Grounding Problem|The Vector Grounding Problem]]
   - [[../sources/Source - Are LLMs Like Libraries or Librarians|Are LLMs Like Libraries or Librarians]]
 - related bridge:
+  - [[../sources/Source - Chomsky on Meaning and Reference|Chomsky on Meaning and Reference]]
   - [[../sources/Source - Mapping Language Models to Grounded Conceptual Spaces|Mapping Language Models to Grounded Conceptual Spaces]]
   - [[../sources/Source - Learning Semantic Correspondences with Less Supervision|Learning Semantic Correspondences with Less Supervision]]
 
@@ -80,6 +96,7 @@ This family asks what picture of language is implicitly carried by vector and em
 This family asks how meaning claims connect to communicative intent, discourse use, and stronger language-understanding claims.
 
 - main anchors:
+  - [[../sources/Source - Chomsky and Pragmatics|Chomsky and Pragmatics]]
   - [[../sources/Source - Climbing Towards NLU|Climbing Towards NLU]]
   - [[../sources/Source - Human and Machine Language Understanding|Human and Machine Language Understanding]]
   - [[../sources/Source - The Generative AI Paradox|The Generative AI Paradox]]
@@ -96,6 +113,8 @@ This family contains the most constructive attempts to move beyond simple next-t
   - [[../sources/Source - From Word Models to World Models|From Word Models to World Models]]
   - [[../sources/Source - Quantifiers Satisfying Semantic Universals are Simpler|Quantifiers Satisfying Semantic Universals are Simpler]]
 - historical background:
+  - [[../sources/Source - Chomsky on Semantics|Chomsky on Semantics]]
+  - [[../sources/Source - Chomsky and Intentionality|Chomsky and Intentionality]]
   - [[../sources/Source - Meaning and Use|Meaning and Use]]
   - [[../sources/Source - Intentionality and the Use of Language|Intentionality and the Use of Language]]
   - selected chapters in [[../sources/Source - Mind Design III|Mind Design III]]
@@ -119,6 +138,10 @@ This strand should remain distinct from [[Neural NLP Probing Overview]] and [[In
 - [[../analyses/What Would Count as Meaning or Reference in a Language Model|What Would Count as Meaning or Reference in a Language Model]]
 
 ## Sources
+- [[../sources/Source - Chomsky on Meaning and Reference|Chomsky on Meaning and Reference]] — `existing_deep`; foundational; central; high. Internalist reconstruction separating systematic meaning and conditions on reference from fixed lexical extensions.
+- [[../sources/Source - Chomsky on Semantics|Chomsky on Semantics]] — `existing_deep`; survey; central; high. Historical and architectural map separating semantic evidence, syntactic autonomy, interface interpretation, and truth-conditional semantics.
+- [[../sources/Source - Chomsky and Pragmatics|Chomsky and Pragmatics]] — `existing_deep`; bridge; central; high. Cognitive-pragmatic account distinguishing encoded meaning from context-sensitive inference and overt communicative intention.
+- [[../sources/Source - Chomsky and Intentionality|Chomsky and Intentionality]] — `existing_deep`; foundational; central; high. Internal dispute over intentional versus nonintentional representation and the common-currency problem across cognitive interfaces.
 - [[../sources/Source - Climbing Towards NLU|Climbing Towards NLU]] — `existing_deep`; critical; central; high. Strong caution standard for meaning and understanding claims.
 - [[../sources/Source - Distributional Models of Word Meaning|Distributional Models of Word Meaning]] — `existing_deep`; foundational; central; high. Core distributional-semantics anchor.
 - [[../sources/Source - Do Language Models Refer|Do Language Models Refer?]] — `existing_deep`; critical; central; high. Narrows the reference dispute through historical inheritance arguments.

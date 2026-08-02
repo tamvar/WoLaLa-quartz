@@ -2,7 +2,7 @@
 title: Theoretical Linguistics and Language Models Overview
 type: overview
 status: active
-updated: 2026-07-29
+updated: 2026-08-02
 tags:
   - overview
   - strand-4
@@ -63,7 +63,39 @@ The wiki now contains enough source diversity for a strand-level map, but the ma
 
 Recent additions strengthen exactly the kind of material this strand needed most: direct theory-facing disputes inside linguistics, multilingual structure bridges, and historically important empirical counterpoints.
 
+The complete Companion brief portfolio now supplies a connected internal map rather than a single generic “Chomskyan” position. [[../sources/Source - From the Origins of Government and Binding to the Current State of Minimalism|Alexiadou and Lohndal]] and [[../sources/Source - Reflections|Chomsky]] trace the move from rule-rich architectures to Minimalist explanation; [[../sources/Source - The Enduring Discoveries of Generative Syntax|Cheng and Griffiths]] separate durable structural generalizations from changing analyses; [[../sources/Source - The Chomsky Hierarchy|Hunter]] and [[../sources/Source - The Architecture of the Computation|Adger]] distinguish generative capacity, procedure, and memory; and [[../sources/Source - On Chomsky's Legacy in the Study of Linguistic Diversity|Baker]] with [[../sources/Source - Parameters and Linguistic Variation|Sheehan]] expose unresolved questions about the organization of variation. This richer map makes model comparison more demanding: matching a surface generalization does not identify a derivation, memory architecture, acquisition constraint, or parameter system.
+
 Where this strand uses probing or BERT-analysis results, it should now rely on [[../analyses/What Probing Evidence Can Support|What Probing Evidence Can Support]] for the evidential ladder rather than restating those method distinctions locally.
+
+## Comparing Explanatory Programs
+
+The central comparisons in this strand should separate grammatical architecture, learning mechanism, and evidential practice. Treating these as one `formal versus statistical` opposition obscures both non-Chomskyan formal theories and statistical learners that operate over explicitly structured representations.
+
+| Program or component | Primary explanatory target | Representational architecture | Learning or acquisition role | Characteristic evidence |
+| --- | --- | --- | --- | --- |
+| Transformational generative linguistics | Internal linguistic competence and constraints on possible grammars | Hierarchical representations built or related through derivational operations; modular interfaces | Language-specific structure constrains the hypothesis space; input fixes or selects among possibilities | Acceptability judgments, structural contrasts, formal adequacy, acquisition arguments |
+| Declarative formalisms such as HPSG and LFG | Explicitly represented grammatical knowledge without a transformational history | Monotonic constraints over feature-rich, potentially multidimensional structures | The chapter-level evidence here does not supply a full acquisition theory; it changes what the learner would have to acquire | Formal coverage, crosslinguistic analysis, representational economy, direct comparison with derivational accounts |
+| Statistical learning | Navigation and revision within a defined hypothesis space | Depends on the units, priors, and hypotheses supplied to the learner | Can complement structured prior knowledge, replace language-specific search procedures, or permit a less tightly constrained hypothesis space | Developmental experiments, input analyses, computational models, quantitative predictions |
+| Usage-based linguistics | How recurrent use, communication, and experience organize grammar | Often constructional form–meaning pairings, graded categories, and continuities across lexicon and grammar | General statistical and social learning abstract patterns from experience; accounts vary across the umbrella | Corpora, frequency distributions, conversation, experiments, grammaticalization, functional and typological patterns |
+
+[[../sources/Source - The View from Declarative Syntax|Sells]] establishes the declarative row as a genuine formal alternative: HPSG and LFG share hierarchy, abstraction, and explicit constraint with generative linguistics while rejecting derivation as the core device. [[../sources/Source - How Statistical Learning Can Play Well with Universal Grammar|Pearl]] shows that statistical learning is not itself a complete representational theory; it can navigate a UG-defined hypothesis space while also reducing what must be assigned to UG. [[../sources/Source - Chomsky and Usage-Based Linguistics|Newmeyer]] then maps the broader reversal between knowledge-first and use-to-structure explanation, including disputes about competence and performance, modularity, communication, acquisition, and evidence.
+
+This comparison also limits what language-model results can establish. Hierarchical behavior does not by itself distinguish derivational from declarative formalism. Successful distributional learning does not show which representational primitives were necessary. Corpus fit does not by itself establish that human grammar is constituted by use, and alignment with judgments does not by itself establish a Chomskyan competence architecture. Theory-facing evaluation has to specify which of these contrasts its evidence can discriminate.
+
+## Evidence and Explanation Across Four Levels
+
+The Companion chapters on neuroscience, acquisition, methodology, and judgments supply a compact evidential architecture. The levels constrain one another, but no result moves automatically from one level to the next.
+
+| Level | Primary question | Characteristic evidence | Strongest warranted inference | Recurring overreach |
+| --- | --- | --- | --- | --- |
+| Neural implementation | Which biological systems realize language-relevant computations? | Lesions, neuroimaging, connectivity, development, comparative anatomy | A distributed network is sensitive to a controlled structural contrast | Treating localization or hierarchy sensitivity as proof of Merge, Universal Grammar, or a unique mechanism |
+| Acquisition and learnability | What input and inductive constraints can produce the observed developmental outcome? | Child-directed input, crosslinguistic acquisition, developmental trajectories, explicit learners | A learner requires some representational bias or information source under stated conditions | Inferring a specific innate grammar before indirect evidence and alternative learners are tested |
+| Methodological abstraction and explanation | Which component and phenomenon should a theory isolate, and what would discriminate explanations? | Idealized contrasts, formal analyses, competing models, auxiliary assumptions | A controlled abstraction explains a stable phenomenon better than its alternatives | Treating idealization, elegance, or selected crucial data as self-validating |
+| Linguistic judgments and behavioral evidence | Which expressions and interpretations do speakers accept under controlled conditions? | Acceptability, interpretation, forced choice, rating, processing, corpus and production measures | A replicable behavioral pattern requires explanation | Treating acceptability as direct grammaticality, or human–model alignment as shared representation or mechanism |
+
+[[../sources/Source - Neuroscience and Syntax|Zaccarella and Trettenbrein]] provide the implementation-level map; [[../sources/Source - The Deep Forces That Shape Language and the Poverty of the Stimulus|Crain, Giblin, and Thornton]] state the acquisition-level nativist case; [[../sources/Source - Chomsky's Galilean Explanatory Style|Allott, Lohndal, and Rey]] defend methodological abstraction; and [[../sources/Source - Linguistic Judgments as Evidence|Gross]] distinguishes behavioral data from their theoretical explanation. Their positions are not evidentially symmetric. The neuroscience findings support hierarchy-sensitive processing more securely than a uniquely Minimalist implementation; the acquisition findings support a constrained learning problem more securely than a unique Universal Grammar solution; idealization is defensible only while empirically answerable; and replicated judgments remain behavioral evidence rather than transparent access to I-language.
+
+For language models, this framework blocks both inflation and dismissal. Behavioral agreement can matter without establishing human-like acquisition or neural realization. Model learning can pressure a poverty premise without modeling children. Neural alignment can be informative without showing the same computation. Explanatory comparison therefore requires explicit targets, matched evidence, live alternatives, and a stated bridge between levels.
 
 ## Theory Map
 
@@ -88,6 +120,20 @@ This family asks whether model success threatens strong anti-statistical argumen
   - [[../sources/Source - Why Linguistics Will Thrive in the 21st Century|Why Linguistics Will Thrive in the 21st Century]]
   - [[../sources/Source - Fundamental Principles of Linguistic Structure Are Not Represented by o3|Fundamental Principles of Linguistic Structure Are Not Represented by o3]]
   - [[../sources/Source - Nature, Nurture, and Universal Grammar|Nature, Nurture, and Universal Grammar]]
+  - [[../sources/Source - How Statistical Learning Can Play Well with Universal Grammar|How Statistical Learning Can Play Well with Universal Grammar]]
+  - [[../sources/Source - The Deep Forces That Shape Language and the Poverty of the Stimulus|The Deep Forces That Shape Language and the Poverty of the Stimulus]]
+  - [[../sources/Source - Universal Grammar and Language Acquisition|Universal Grammar and Language Acquisition]]
+  - [[../sources/Source - Nativism|Nativism]]
+  - [[../sources/Source - Chomsky's Galilean Explanatory Style|Chomsky's Galilean Explanatory Style]]
+
+### Declarative and constraint-based formal alternatives
+
+This family asks whether grammatical knowledge is better characterized by constraints over representations than by transformations or ordered derivations. It prevents the strand from treating generative linguistics and usage-based learning as the only theoretical choices.
+
+- main anchor:
+  - [[../sources/Source - The View from Declarative Syntax|The View from Declarative Syntax]]
+- supporting formal bridge:
+  - [[../sources/Source - Structural, Functional, and Processing Perspectives on Linguistic Island Effects|Structural, Functional, and Processing Perspectives on Linguistic Island Effects]]
 
 ### Usage-based, constructionist, and emergent alternatives
 
@@ -102,12 +148,15 @@ This family treats linguistic structure as emerging from use, sequence learning,
   - [[../sources/Source - Constructions at Work|Constructions at Work]]
   - [[../sources/Source - Construction Grammar Provides Unique Insight into Neural Language Models|Construction Grammar Provides Unique Insight into Neural Language Models]]
   - [[../sources/Source - The Language Faculty That Wasn't|The Language Faculty That Wasn't]]
+  - [[../sources/Source - Chomsky and Usage-Based Linguistics|Chomsky and Usage-Based Linguistics]]
 
 ### Lexical, semantic, and compositional theory
 
 This family asks how lexical meaning, composition, ontology, and communication should be theorized once distributional and deep-learning results are on the table.
 
 - main anchors:
+  - [[../sources/Source - Chomsky on Meaning and Reference|Chomsky on Meaning and Reference]]
+  - [[../sources/Source - Chomsky on Semantics|Chomsky on Semantics]]
   - [[../sources/Source - Lexical Competence|Lexical Competence]]
   - [[../sources/Source - Frege in Space|Frege in Space]]
   - [[../sources/Source - Lexical Semantics with Large Language Models|Lexical Semantics with Large Language Models]]
@@ -131,6 +180,8 @@ This family asks which learning problems language models illuminate and which re
   - [[../sources/Source - A Probabilistic Model of Syntactic and Semantic Acquisition|A Probabilistic Model of Syntactic and Semantic Acquisition]]
   - [[../sources/Source - What Artificial Neural Networks Can Tell Us About Human Language Acquisition|What Artificial Neural Networks Can Tell Us About Human Language Acquisition]]
   - [[../sources/Source - The BabyLM Challenge|The BabyLM Challenge]]
+  - [[../sources/Source - How Statistical Learning Can Play Well with Universal Grammar|How Statistical Learning Can Play Well with Universal Grammar]]
+  - [[../sources/Source - The Deep Forces That Shape Language and the Poverty of the Stimulus|The Deep Forces That Shape Language and the Poverty of the Stimulus]]
 
 ### Multilingual and typological evidence
 
@@ -143,6 +194,10 @@ This family asks whether cross-lingual transfer, multilingual structure, or typo
   - [[../sources/Source - Deep Subjecthood|Deep Subjecthood]]
   - [[../sources/Source - Finding Universal Grammatical Relations in Multilingual BERT|Finding Universal Grammatical Relations in Multilingual BERT]]
   - [[../sources/Source - A Survey of Cross-lingual Word Embedding Models|A Survey of Cross-lingual Word Embedding Models]]
+  - [[../sources/Source - On Chomsky's Legacy in the Study of Linguistic Diversity|On Chomsky's Legacy in the Study of Linguistic Diversity]]
+  - [[../sources/Source - Parameters and Linguistic Variation|Parameters and Linguistic Variation]]
+  - [[../sources/Source - Multilingualism and Chomsky's Generative Grammar|Multilingualism and Chomsky's Generative Grammar]]
+  - [[../sources/Source - Chomsky and Signed Languages|Chomsky and Signed Languages]]
 
 ### Model evaluation as theory-relevant evidence
 
@@ -160,6 +215,7 @@ This family asks when model evaluation is itself a test of linguistic theory rat
   - [[../sources/Source - Assessing BERT's Syntactic Abilities|Assessing BERT's Syntactic Abilities]]
   - [[../sources/Source - The Roles of English in Evaluating Multilingual Language Models|The Roles of English in Evaluating Multilingual Language Models]]
   - [[../sources/Source - Syntactic Structure from Deep Learning|Syntactic Structure from Deep Learning]]
+  - [[../sources/Source - Linguistic Judgments as Evidence|Linguistic Judgments as Evidence]]
 
 [[../sources/Source - Neural Network Acceptability Judgments|Warstadt et al. on CoLA]], [[../sources/Source - Investigating BERT's Knowledge of Language|Warstadt et al. on NPIs]], and [[../sources/Source - Colorless Green Recurrent Networks Dream Hierarchically|Gulordava et al.]] strengthen this family by showing that theory-facing syntax evidence depends strongly on task design. Acceptability classification, minimal pairs, surprisal-style agreement testing, and probing can all reveal something real, but they do not collapse into one evidential scale. [[../sources/Source - Deep Subjecthood|Papadimitriou et al.]] then extend the same lesson into multilingual grammar, while [[../sources/Source - The Roles of English in Evaluating Multilingual Language Models|Poelman and de Lhoneux]] caution that multilingual evaluation can become English-interface evaluation if prompt design is left uninterrogated.
 
@@ -230,13 +286,20 @@ This family asks when model evaluation is itself a test of linguistic theory rat
 - [[../sources/Source - The Roles of English in Evaluating Multilingual Language Models|The Roles of English in Evaluating Multilingual Language Models]] — `existing_brief`; methodological; supporting; medium. Evaluation-design caution showing that multilingual prompting choices affect how much a result can count as evidence about target-language understanding.
 - [[../sources/Source - The BabyLM Challenge|The BabyLM Challenge]] — `existing_brief`; methodological; supporting; medium. Acquisition-facing shared task that makes data-budget and developmentally plausible training questions empirically comparable.
 - [[../sources/Source - Papers in Structural and Transformational Linguistics|Papers in Structural and Transformational Linguistics]] — `existing_deep`; historical; supporting; medium. Selective deep Harris collection on distributional method, morphology, string analysis, discourse, computation, and transformations.
+- [[../sources/Source - The View from Declarative Syntax|The View from Declarative Syntax]] — `existing_deep`; foundational; central; high. Formal comparison showing how HPSG and LFG preserve hierarchy, abstraction, and explicit grammatical knowledge while replacing derivational operations with constraints over multidimensional representations.
+- [[../sources/Source - How Statistical Learning Can Play Well with Universal Grammar|How Statistical Learning Can Play Well with Universal Grammar]] — `existing_deep`; bridge; central; high. Acquisition framework separating hypothesis-space representations from the statistical procedures that navigate and may simplify them.
+- [[../sources/Source - Chomsky and Usage-Based Linguistics|Chomsky and Usage-Based Linguistics]] — `existing_deep`; survey; central; high. Dispute map organizing generative and usage-based differences by explanatory target, architecture, acquisition, function, and evidence while preserving the diversity of the usage-based umbrella.
+- [[../sources/Source - The Architecture of the Computation|The Architecture of the Computation]] — `existing_brief`; foundational; supporting; high. Device–procedure–memory decomposition showing why a simpler operation can require stronger architectural restrictions.
+- [[../sources/Source - The Enduring Discoveries of Generative Syntax|The Enduring Discoveries of Generative Syntax]] — `existing_brief`; survey; supporting; high. Empirical map of hierarchy, nonlocal dependencies, and gaps that persists across changing generative analyses.
+- [[../sources/Source - The Chomsky Hierarchy|The Chomsky Hierarchy]] — `existing_brief`; foundational; supporting; high. Formal-language account reframing grammar classes through substitution, categorization, and memory.
+- [[../sources/Source - Universal Grammar and Language Acquisition|Universal Grammar and Language Acquisition]] — `existing_brief`; empirical; supporting; high. Principle C acquisition evidence joining hierarchical representation, unavailable interpretations, and poverty-of-stimulus reasoning.
 
 ## Gaps and Next Priorities
 
-- the current wiki now has a clearer theory-facing bridge set, including stronger formal-semantics and communicative-function material, but it still lacks a deeper comparison of generative, formal, usage-based, and distributional explanatory commitments
+- the strand now has an explicit comparison among transformational generative linguistics, declarative formalisms, statistical learning, and usage-based explanation; the next step is empirical work that can discriminate among these commitments rather than another general position map
 - empirical multilingual and self-supervised evidence is better represented than explicit formal-semantics material
 - the next deep ingests here should probably build from the newly strengthened historical and formal-language backbone rather than returning immediately to another narrow empirical slice
-- the key unresolved architectural question is whether comparison among formal, generative, and usage-based interpretations still needs its own synthesis page after this refactoring
+- a separate synthesis page is not yet warranted: the compact comparison above is sufficient until a larger source cluster supports a more detailed, reusable analysis
 
 ## Related Strands and Pages
 

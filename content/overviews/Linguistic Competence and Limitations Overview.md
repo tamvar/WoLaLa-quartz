@@ -2,7 +2,7 @@
 title: Linguistic Competence and Limitations Overview
 type: overview
 status: active
-updated: 2026-07-29
+updated: 2026-08-02
 tags:
   - overview
   - strand-1
@@ -68,7 +68,9 @@ Coverage is substantial but uneven.
   - [[../sources/Source - Dissociating Language and Thought in Large Language Models|Dissociating Language and Thought in Large Language Models]]
   - [[../sources/Source - Language Models Mostly Know What They Know|Language Models Mostly Know What They Know]]
 
-Current coverage is strongest on probing, BERT, and evidence standards. The key methodological safeguard is that internal results should now be read through [[../analyses/What Probing Evidence Can Support|the graded probing-evidence analysis]] rather than treated as direct proofs of deployed competence or theory-level explanation. Language-focused evaluation is now better represented by targeted syntax, scaling-profile, contextual-representation, and psycholinguistic-bridge sources, while multilingual, discourse/pragmatics, and broader failure-mode coverage remain thinner.
+Current coverage is strongest on probing, BERT, and evidence standards. The key methodological safeguard is that internal results should now be read through [[../analyses/What Probing Evidence Can Support|the graded probing-evidence analysis]] rather than treated as direct proofs of deployed competence or theory-level explanation. [[../sources/Source - Linguistic Judgments as Evidence|Gross]] adds the parallel distinction between observable acceptability and theoretical grammaticality, while [[../sources/Source - The Deep Forces That Shape Language and the Poverty of the Stimulus|Crain, Giblin, and Thornton]] make the premises of a strong acquisition argument explicit. Language-focused evaluation is now better represented by targeted syntax, scaling-profile, contextual-representation, and psycholinguistic-bridge sources, while multilingual, discourse/pragmatics, and broader failure-mode coverage remain thinner.
+
+The new brief chapters strengthen the human comparison baseline without turning it into a model verdict. [[../sources/Source - Sentence Processing and Syntactic Theory|Kush and Dillon]] separate grammatical representations from incremental parsing and linking hypotheses; [[../sources/Source - Universal Grammar and Language Acquisition|Crain and Thornton]] test a structure-sensitive interpretive exclusion across multiple constructions; and [[../sources/Source - Multilingualism and Chomsky's Generative Grammar|Kupisch et al.]] distinguish stable transfer from context-dependent cross-linguistic influence. [[../sources/Source - Atypical Acquisition|Smith and Tsimpli]] add dissociations among formal language, communication, and general cognition. Together they require competence evaluations to state whether the target is representation, processing, acquisition, or use.
 
 ## Representative Sources
 
@@ -89,6 +91,12 @@ Current coverage is strongest on probing, BERT, and evidence standards. The key 
 - [[../sources/Source - Language Models Mostly Know What They Know|Language Models Mostly Know What They Know]] — `existing_deep`; recent; supporting; medium. Adds bounded self-evaluation and confidence calibration to competence assessment.
 - [[../sources/Source - A Systematic Assessment of Syntactic Generalization in Neural Language Models|A Systematic Assessment of Syntactic Generalization in Neural Language Models]] — `existing_deep`; methodological; central; high. Strong targeted-evaluation anchor showing that perplexity and syntactic generalization can diverge.
 - [[../sources/Source - Neural Network Acceptability Judgments|Neural Network Acceptability Judgments]] — `existing_brief`; methodological; supporting; high. Acceptability-judgment benchmark source showing that neural models capture some grammar but remain well below human performance.
+- [[../sources/Source - Linguistic Judgments as Evidence|Linguistic Judgments as Evidence]] — `existing_deep`; methodological; central; high. Separates observable judgment data from grammatical explanation and assesses the reliability and limits of informal and formal elicitation.
+- [[../sources/Source - The Deep Forces That Shape Language and the Poverty of the Stimulus|The Deep Forces That Shape Language and the Poverty of the Stimulus]] — `existing_deep`; foundational; central; high. Explicit nativist acquisition case whose crosslinguistic evidence sharpens, but does not uniquely settle, learnability and inductive-bias questions.
+- [[../sources/Source - Sentence Processing and Syntactic Theory|Sentence Processing and Syntactic Theory]] — `existing_brief`; methodological; supporting; high. Psycholinguistic bridge distinguishing grammatical commitments from their resource-bounded real-time implementation.
+- [[../sources/Source - Universal Grammar and Language Acquisition|Universal Grammar and Language Acquisition]] — `existing_brief`; empirical; supporting; high. Cross-construction Principle C experiments centered on unavailable interpretations and hierarchical structure.
+- [[../sources/Source - Multilingualism and Chomsky's Generative Grammar|Multilingualism and Chomsky's Generative Grammar]] — `existing_brief`; bridge; supporting; medium. Methodological separation of representational transfer from performance-level cross-linguistic influence.
+- [[../sources/Source - Atypical Acquisition|Atypical Acquisition]] — `existing_brief`; bridge; supporting; medium. Acquisition and dissociation cases separating accessible input, linguistic structure, communication, and general cognition.
 - [[../sources/Source - SyntaxGym|SyntaxGym]] — `existing_brief`; methodological; supporting; medium. Reusable evaluation platform for controlled syntax-sensitive testing.
 - [[../sources/Source - Open Sesame|Open Sesame]] — `existing_brief`; bridge; supporting; high. Hierarchy-sensitive BERT study separating lower-layer positional coding from higher-layer structural encoding.
 - [[../sources/Source - Visualizing and Measuring the Geometry of BERT|Visualizing and Measuring the Geometry of BERT]] — `existing_brief`; bridge; supporting; medium. Geometry-oriented account of semantic and syntactic structure inside BERT representations.

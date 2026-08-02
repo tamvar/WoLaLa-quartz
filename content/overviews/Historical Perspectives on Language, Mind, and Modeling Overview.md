@@ -53,6 +53,8 @@ Coverage is now stronger than skeletal, but it is still uneven across lineages.
 
 The repository already contains enough integrated historical material to support a lineage-based map rather than a simple chronological list.
 
+The Companion brief portfolio now gives the generative lineage an internal history rather than a single retrospective label. [[../sources/Source - From the Origins of Government and Binding to the Current State of Minimalism|Alexiadou and Lohndal]] trace successive grammatical architectures; [[../sources/Source - On Chomsky's Legacy in the Study of Linguistic Diversity|Baker]] and [[../sources/Source - Parameters and Linguistic Variation|Sheehan]] show how comparative syntax complicated the original parameter program; and [[../sources/Source - Reflections|Chomsky]] reconstructs the move from structuralist procedures and habits to explanatory theories of I-language. [[../sources/Source - Language as a Branch of Psychology|Gleitman]] supplies a participant history of the associated cognitive turn. These accounts agree on the importance of explicit internal structure but disagree, or leave open, how much must be innate, how variation is organized, and which machinery provides genuine explanation.
+
 ## Historical Lineages
 
 ### Language, mind, and strong AI
@@ -91,6 +93,9 @@ This lineage frames the relation between structural adequacy, learnability, and 
   - [[../sources/Source - Review of B. F. Skinner's Verbal Behavior.md|Review of B. F. Skinner's Verbal Behavior]]
   - [[../sources/Source - Papers in Structural and Transformational Linguistics|Papers in Structural and Transformational Linguistics]]
   - [[../sources/Source - A Corpus Investigation of Syntactic Embedding in Piraha|A Corpus Investigation of Syntactic Embedding in Pirahã]]
+  - [[../sources/Source - From the Origins of Government and Binding to the Current State of Minimalism|From the Origins of Government and Binding to the Current State of Minimalism]]
+  - [[../sources/Source - Language as a Branch of Psychology|Language as a Branch of Psychology]]
+  - [[../sources/Source - Reflections|Reflections]]
 
 ### Symbolic, connectionist, and mind-design traditions
 
@@ -183,6 +188,9 @@ This lineage groups sources included not just because they are old, but because 
 - [[../sources/Source - Understanding Deep Learning Requires Rethinking Generalization|Understanding Deep Learning Requires Rethinking Generalization]] — `existing_brief`; methodological; supporting; medium. Modern challenge showing that deep learning reopened basic questions about why successful models generalize at all.
 - [[../sources/Source - Why Linguistics Will Thrive in the 21st Century|Why Linguistics Will Thrive in the 21st Century]] — `existing_brief`; critical; supporting; medium. Current reply source tying LLM disputes back to older explanatory and learnability questions in linguistics.
 - [[../sources/Source - More Is Different|More Is Different]] — `existing_brief`; foundational; supporting; high. Classic emergence-and-levels source clarifying why higher-level explanation remains indispensable under complexity.
+- [[../sources/Source - From the Origins of Government and Binding to the Current State of Minimalism|From the Origins of Government and Binding to the Current State of Minimalism]] — `existing_brief`; historical; supporting; high. Internal architectural history from transformations and GB modules to Merge, interfaces, and third factors.
+- [[../sources/Source - Reflections|Reflections]] — `existing_brief`; historical; central; high. Chomsky's retrospective on structuralism, competence, I-language, and the learnability–evolvability agenda.
+- [[../sources/Source - On Chomsky's Legacy in the Study of Linguistic Diversity|On Chomsky's Legacy in the Study of Linguistic Diversity]] — `existing_brief`; historical; supporting; medium. Interpretive three-phase history of how English-centered theory stimulated a comparative generative research program.
 
 ## Gaps and Next Priorities
 

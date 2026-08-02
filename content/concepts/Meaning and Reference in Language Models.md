@@ -2,7 +2,7 @@
 title: Meaning and Reference in Language Models
 type: concept
 status: active
-updated: 2026-07-29
+updated: 2026-08-02
 tags:
   - concept
   - meaning
@@ -25,6 +25,15 @@ This concept page tracks a central WoLaLa distinction: claims about meaning, ref
 - [[../sources/Source - From Word Models to World Models|Wong et al.]] provide the clearest constructive world-model direction.
 
 ## Core Distinctions
+
+### Meaning, reference, pragmatics, and intentionality
+
+- [[../sources/Source - Chomsky on Meaning and Reference|Pietroski]] treats lexical and compositional meanings as internal resources that constrain interpretation, use, and possible reference without being fixed extensions.
+- [[../sources/Source - Chomsky on Semantics|Glanzberg]] distinguishes using semantic facts as evidence from adopting a truth-conditional semantic architecture. Internal semantic features, syntactic autonomy, and reference-first semantics are separate commitments.
+- [[../sources/Source - Chomsky and Pragmatics|Allott and Wilson]] distinguish encoded linguistic meaning from disambiguation, reference resolution, enrichment, implicature, and inference about communicative intentions.
+- [[../sources/Source - Chomsky and Intentionality|Collins and Rey]] ask whether linguistic representations possess content for the system or merely provide a theorist's formal classification of internal states.
+
+These distinctions prevent four invalid inferences: semantic structure does not guarantee reference; reference does not guarantee understanding; context-sensitive performance does not guarantee communicative intention; and behavior that observers can interpret as about something does not guarantee system-level intentionality.
 
 ### Form, competence, and understanding
 
@@ -70,6 +79,8 @@ This is one reason why semantic success should not be treated as a single ladder
 - `derivative meaning`: meaning inherited from human linguistic practice without full independent agency
 - `limited agency`: a stronger interpretation where novel reference or action-like semantic behavior becomes explanatory
 - `world-model integration`: a constructive architecture in which language interfaces with richer inferential structure
+- `pragmatic interpretation`: context-sensitive inference from encoded material toward an intended interpretation, including disambiguation, enrichment, and implicature
+- `intentionality`: aboutness under an aspect, including conditions of correctness and the possibility of misrepresentation
 
 The analysis page [[../analyses/What Would Count as Meaning or Reference in a Language Model|What Would Count as Meaning or Reference in a Language Model]] asks what evidence would justify any of these moves. The strand overview [[../overviews/Meaning, Reference, and Distributional Language Overview|Meaning, Reference, and Distributional Language Overview]] maps the literature families in which they recur.
 
@@ -78,6 +89,10 @@ The analysis page [[../analyses/What Would Count as Meaning or Reference in a La
 - [[../analyses/What Would Count as Meaning or Reference in a Language Model|What Would Count as Meaning or Reference in a Language Model]]
 
 ## Sources
+- [[../sources/Source - Chomsky on Meaning and Reference|Source - Chomsky on Meaning and Reference]]
+- [[../sources/Source - Chomsky on Semantics|Source - Chomsky on Semantics]]
+- [[../sources/Source - Chomsky and Pragmatics|Source - Chomsky and Pragmatics]]
+- [[../sources/Source - Chomsky and Intentionality|Source - Chomsky and Intentionality]]
 - [[../sources/Source - Climbing Towards NLU|Source - Climbing Towards NLU]]
 - [[../sources/Source - Do Language Models Refer|Source - Do Language Models Refer]]
 - [[../sources/Source - From Word Models to World Models|Source - From Word Models to World Models]]
