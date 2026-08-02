@@ -2,7 +2,7 @@
 title: Linguistic Competence and Limitations Overview
 type: overview
 status: active
-updated: 2026-07-24
+updated: 2026-07-29
 tags:
   - overview
   - strand-1
@@ -68,7 +68,7 @@ Coverage is substantial but uneven.
   - [[../sources/Source - Dissociating Language and Thought in Large Language Models|Dissociating Language and Thought in Large Language Models]]
   - [[../sources/Source - Language Models Mostly Know What They Know|Language Models Mostly Know What They Know]]
 
-Current coverage is strongest on probing, BERT, and evidence standards. Multilingual, tokenization, and broader failure-mode coverage are present mainly as indexed candidates rather than deeply integrated notes.
+Current coverage is strongest on probing, BERT, and evidence standards. The key methodological safeguard is that internal results should now be read through [[../analyses/What Probing Evidence Can Support|the graded probing-evidence analysis]] rather than treated as direct proofs of deployed competence or theory-level explanation. Language-focused evaluation is now better represented by targeted syntax, scaling-profile, contextual-representation, and psycholinguistic-bridge sources, while multilingual, discourse/pragmatics, and broader failure-mode coverage remain thinner.
 
 ## Representative Sources
 
@@ -79,25 +79,54 @@ Current coverage is strongest on probing, BERT, and evidence standards. Multilin
 - [[../sources/Source - What Does BERT Learn About the Structure of Language|What Does BERT Learn About the Structure of Language]] — `existing_deep`; foundational; central; high. Strong structure-focused complement to Tenney et al.
 - [[../sources/Source - What Do NMT Models Learn About Morphology|What Do NMT Models Learn About Morphology]] — `existing_deep`; bridge; supporting; medium. Extends competence questions beyond BERT to NMT morphology.
 - [[../sources/Source - Dissociating Language and Thought in Large Language Models|Dissociating Language and Thought in Large Language Models]] — `existing_deep`; critical; central; high. Separates formal linguistic competence from broader functional language use.
+- [[../sources/Source - BERT|BERT]] — `existing_deep`; foundational; supporting; high. Core bidirectional pretraining source behind much of the strand's later probing and syntax-sensitive evaluation work.
+- [[../sources/Source - Deep Contextualized Word Representations|Deep Contextualized Word Representations]] — `existing_deep`; historical; supporting; high. Pre-BERT contextualization anchor showing why token meaning became a layerwise context-sensitive representation problem.
+- [[../sources/Source - A Primer in BERTology|A Primer in BERTology]] — `existing_deep`; survey; central; high. Organizes the early BERT-analysis literature while keeping extractability distinct from explanation.
+- [[../sources/Source - Language Models are Few-Shot Learners|Language Models are Few-Shot Learners]] — `existing_deep`; foundational; supporting; high. Scaling-era anchor on few-shot prompting and broad task behavior without parameter updates.
+- [[../sources/Source - T5|T5]] — `existing_brief`; methodological; supporting; medium. Unified text-to-text transfer framework reminding us that task interface and evaluation setup partly shape apparent competence.
+- [[../sources/Source - Scaling Language Models from Gopher|Scaling Language Models: Methods, Analysis & Insights from Training Gopher]] — `existing_brief`; methodological; supporting; high. Large-scale capability profile showing that scaling improves some language tasks much more than others.
+- [[../sources/Source - InstructGPT|InstructGPT]] — `existing_deep`; bridge; supporting; medium. Important post-training anchor for separating base-model competence from aligned interaction behavior.
 - [[../sources/Source - Language Models Mostly Know What They Know|Language Models Mostly Know What They Know]] — `existing_deep`; recent; supporting; medium. Adds bounded self-evaluation and confidence calibration to competence assessment.
-- *Linguistic knowledge and transferability of contextual representations* — `index_only`; bridge; supporting; high. Natural extension of the current probing/BERT thread.
+- [[../sources/Source - A Systematic Assessment of Syntactic Generalization in Neural Language Models|A Systematic Assessment of Syntactic Generalization in Neural Language Models]] — `existing_deep`; methodological; central; high. Strong targeted-evaluation anchor showing that perplexity and syntactic generalization can diverge.
+- [[../sources/Source - Neural Network Acceptability Judgments|Neural Network Acceptability Judgments]] — `existing_brief`; methodological; supporting; high. Acceptability-judgment benchmark source showing that neural models capture some grammar but remain well below human performance.
+- [[../sources/Source - SyntaxGym|SyntaxGym]] — `existing_brief`; methodological; supporting; medium. Reusable evaluation platform for controlled syntax-sensitive testing.
+- [[../sources/Source - Open Sesame|Open Sesame]] — `existing_brief`; bridge; supporting; high. Hierarchy-sensitive BERT study separating lower-layer positional coding from higher-layer structural encoding.
+- [[../sources/Source - Visualizing and Measuring the Geometry of BERT|Visualizing and Measuring the Geometry of BERT]] — `existing_brief`; bridge; supporting; medium. Geometry-oriented account of semantic and syntactic structure inside BERT representations.
+- [[../sources/Source - Neural Language Models as Psycholinguistic Subjects|Neural Language Models as Psycholinguistic Subjects]] — `existing_brief`; bridge; supporting; high. Psycholinguistic-method bridge on syntactic-state representations.
+- [[../sources/Source - Linguistic Knowledge and Transferability of Contextual Representations|Linguistic Knowledge and Transferability of Contextual Representations]] — `existing_brief`; bridge; supporting; high. Natural extension of the current probing/BERT thread, now represented as a brief transferability-focused source page.
 - *BERT is not an interlingua* — `index_only`; critical; supporting; high. Candidate multilingual bridge on whether shared representations imply deeper cross-lingual linguistic structure.
-- *On the Multilingual Capabilities of Very Large-Scale English Language Models* — `index_only`; recent; supporting; medium. Candidate for multilingual competence without dedicated multilingual training.
-- *What does BERT look at?* — `index_only`; supporting; supporting; medium. Probing-adjacent candidate for attention and representation analysis.
-- *What do you learn from context?* — `index_only`; supporting; supporting; medium. Context-sensitive competence candidate adjacent to the probing cluster.
-- *Fine-grained Analysis of Sentence Embeddings* — `index_only`; supporting; supporting; medium. Extends the sentence-embedding part of the strand.
-- *Analysis Methods in NLP* — `index_only`; survey; supporting; medium. General methods background for evaluating competence claims.
-- *Subword Language Modelling* — `index_only`; bridge; supporting; medium. Tokenization-sensitive competence candidate.
-- *ByT5-token-free models* — `index_only`; recent; supporting; medium. Token-free candidate relevant to whether competence depends on subword segmentation.
-- *charbert* — `index_only`; supporting; supporting; low. Character-level alternative relevant to tokenization and representation questions.
+- [[../sources/Source - How Multilingual Is Multilingual BERT|How Multilingual Is Multilingual BERT]] — `existing_brief`; bridge; supporting; high. Early multilingual probing anchor showing real cross-lingual representation sharing along with typological limits.
+- [[../sources/Source - It's Not Greek to mBERT|It's Not Greek to mBERT]] — `existing_brief`; bridge; supporting; high. Word-level translation probe clarifying what kind of multilingual information mBERT actually encodes.
+- [[../sources/Source - On the Multilingual Capabilities of Very Large-Scale English Language Models|On the Multilingual Capabilities of Very Large-Scale English Language Models]] — `existing_brief`; recent; supporting; medium. Multilingual competence bridge on zero-shot transfer from overwhelmingly English pretraining.
+- [[../sources/Source - Language Models are Multilingual Chain-of-Thought Reasoners|Language Models are Multilingual Chain-of-Thought Reasoners]] — `existing_brief`; bridge; supporting; medium. Multilingual reasoning benchmark showing that chain-of-thought prompting can transfer across typologically diverse languages.
+- [[../sources/Source - Deep Subjecthood|Deep Subjecthood]] — `existing_brief`; bridge; supporting; high. Multilingual subjecthood study showing that higher-order grammatical organization is at least partly recoverable from mBERT representations across languages.
+- [[../sources/Source - Investigating BERT's Knowledge of Language|Investigating BERT's Knowledge of Language]] — `existing_brief`; methodological; supporting; high. NPI-method comparison showing that one model can look differently knowledgeable depending on whether we probe, classify, compare minimal pairs, or inspect cloze preferences.
+- [[../sources/Source - Are Pre-trained Language Models Aware of Phrases|Are Pre-trained Language Models Aware of Phrases]] — `existing_brief`; bridge; supporting; medium. Constituency-recovery result showing that phrase structure is recoverable from pretrained representations without parser fine-tuning.
+- [[../sources/Source - Probing What Different NLP Tasks Teach Machines about Function Word Comprehension|Probing What Different NLP Tasks Teach Machines about Function Word Comprehension]] — `existing_brief`; methodological; supporting; medium. Function-word challenge-task source showing that grammatical subskills vary with pretraining objective rather than collapsing into one global competence score.
+- [[../sources/Source - Colorless Green Recurrent Networks Dream Hierarchically|Colorless Green Recurrent Networks Dream Hierarchically]] — `existing_brief`; bridge; supporting; high. Nonce-sentence agreement result arguing that strong syntax-sensitive behavior can persist when lexical-semantic cues are stripped away.
+- [[../sources/Source - Can Neural Networks Acquire a Structural Bias from Raw Linguistic Data|Can Neural Networks Acquire a Structural Bias from Raw Linguistic Data]] — `existing_brief`; bridge; supporting; high. BERT structural-bias study showing real structure-sensitive generalization together with one important failure case.
+- [[../sources/Source - What Does BERT Look At|What Does BERT Look At?]] — `existing_brief`; supporting; supporting; medium. Attention-pattern analysis source between descriptive probing and stronger mechanistic explanation.
+- [[../sources/Source - What Do You Learn from Context|What Do You Learn from Context?]] — `existing_brief`; supporting; supporting; medium. Context-sensitive sentence-structure probing bridge for contextual representations.
+- [[../sources/Source - Fine-grained Analysis of Sentence Embeddings|Fine-grained Analysis of Sentence Embeddings]] — `existing_brief`; supporting; supporting; medium. Early sentence-embedding diagnostic source on recoverable structural information.
+- [[../sources/Source - Does BERT Rediscover a Classical NLP Pipeline|Does BERT Rediscover a Classical NLP Pipeline?]] — `existing_brief`; critical; supporting; medium. Direct caution against overreading the standard layerwise pipeline story about BERT.
+- [[../sources/Source - Analysis Methods in Neural Language Processing|Analysis Methods in Neural Language Processing]] — `existing_deep`; survey; supporting; medium. General methods anchor for evaluating competence claims without overreading a single analysis tool.
+- [[../sources/Source - Neural Machine Translation of Rare Words with Subword Units|Neural Machine Translation of Rare Words with Subword Units]] — `existing_brief`; bridge; supporting; medium. Historical subword anchor on open-vocabulary modeling and segmentation strategy.
+- [[../sources/Source - Subword Language Modelling|Subword Language Modelling]] — `existing_brief`; bridge; supporting; medium. Early language-modeling source on the tradeoffs among character-, word-, and subword-level units.
+- [[../sources/Source - ByT5|ByT5]] — `existing_brief`; recent; supporting; medium. Token-free candidate relevant to whether competence depends on subword segmentation.
+- [[../sources/Source - CharBERT|CharBERT]] — `existing_brief`; supporting; supporting; low. Character-aware alternative relevant to tokenization and representation questions.
+- [[../sources/Source - CharacterBERT|CharacterBERT]] — `existing_brief`; bridge; supporting; medium. Word-level open-vocabulary alternative showing that strong contextual modeling need not inherit fixed wordpiece vocabularies.
+- [[../sources/Source - How to Get Past Sesame Street|How to Get Past Sesame Street]] — `existing_brief`; methodological; supporting; medium. Large pretraining-task comparison clarifying that competence profiles depend on the route into transfer, not only on architecture.
+- [[../sources/Source - Finding Universal Grammatical Relations in Multilingual BERT|Finding Universal Grammatical Relations in Multilingual BERT]] — `existing_brief`; bridge; supporting; high. Strong multilingual structural-relations source that sharpens competence claims across languages.
+- [[../sources/Source - Emergent Linguistic Structure in Artificial Neural Networks Trained by Self-Supervision|Emergent Linguistic Structure in Artificial Neural Networks Trained by Self-Supervision]] — `existing_brief`; bridge; supporting; high. Important bridge from competence evidence to stronger claims about learned linguistic organization.
 
 ## Gaps and Next Priorities
 
-- multilingual competence is still represented mostly by inventory entries rather than wiki synthesis
-- tokenization and character-level threads are visible but not yet mapped into a dedicated subtopic
-- competence limits beyond probing and calibration remain thinner than the syntax-focused material
+- multilingual competence is materially better represented than before, but still lacks a deeper synthesis tying transfer, alignment, and structural evidence together
+- tokenization and character-level threads are visible through CharBERT, CharacterBERT, ByT5, and subword-sensitive background sources, but they are not yet mapped into a dedicated subtopic
+- competence limits beyond probing, calibration, and targeted syntax remain thinner than the syntax-focused material
 - discourse, pragmatics, and richer evaluation design remain much thinner than syntax and probing
 - the next deep ingests for this strand should probably come from the multilingual or linguistic-theory bridge candidates rather than from more probing papers
+- post-training and interface design are now more visible as interpretive complications, but they still need tighter synthesis with the core competence literature
 
 ## Related Strands and Pages
 

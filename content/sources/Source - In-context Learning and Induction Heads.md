@@ -21,7 +21,7 @@ Olsson et al. argue that induction heads may be a major mechanism behind in-cont
 - the authors report an early training transition in which induction heads emerge.
 - they also report a sharp improvement in their measure of in-context learning during the same period.
 - the evidence package includes co-occurrence, architectural co-perturbation, test-time attention-head ablations in small models, examples of broader induction-head behavior, mechanistic plausibility, and continuity from small to larger models.
-- `Induction heads.pdf` was checked separately as a likely alternate-copy or variant candidate, but this source page treats `Olsson et al. (2022) In-context Learning and Induction Heads.pdf` as canonical.
+- this page treats Olsson et al. (2022) as the canonical source; a separately checked local item is a distinct follow-up work rather than an alternate copy of this paper.
 
 ## Details
 The source connects three levels of analysis:

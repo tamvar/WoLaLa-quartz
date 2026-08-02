@@ -36,5 +36,3 @@ A quantification-focused comparison is valuable precisely because it is narrow, 
 - Title: *Quantifying Generalizations: Exploring the Divide Between Human and LLMs' Sensitivity to Quantification*
 - Source type: paper
 
-## Source Location
-- `raw/archive/AI-WoLaLa-related-papers symlink/2024.acl-long.636.pdf`

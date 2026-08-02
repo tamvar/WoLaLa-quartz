@@ -36,5 +36,3 @@ The title-level claim is intentionally strong, so the main caution is interpreti
 - Title: *Modern language models refute Chomsky*
 - Source type: paper
 
-## Source Location
-- `raw/archive/AI-WoLaLa-related-papers symlink/piantadosi-Modern language models refute Chomsky.pdf`

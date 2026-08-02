@@ -2,7 +2,7 @@
 title: Critical and Skeptical Perspectives Overview
 type: overview
 status: active
-updated: 2026-07-24
+updated: 2026-07-27
 tags:
   - overview
   - strand-2
@@ -63,22 +63,31 @@ The strand already has strong critical anchors, but many later candidates remain
 - [[../sources/Source - Do Language Models Refer|Do Language Models Refer?]] — `existing_deep`; critical; central; high. Important because it narrows rather than dissolves the skeptical dispute.
 - [[../sources/Source - Dissociating Language and Thought in Large Language Models|Dissociating Language and Thought in Large Language Models]] — `existing_deep`; critical; central; high. Challenges broad cognitive interpretations of linguistic performance.
 - [[../sources/Source - Human and Machine Language Understanding|Human and Machine Language Understanding]] — `existing_deep`; survey; central; high. Shows that disputes over understanding often rest on mismatched disciplinary standards.
+- [[../sources/Source - The Debate Over Understanding in AI's Large Language Models|The Debate Over Understanding in AI's Large Language Models]] — `existing_deep`; survey; central; high. Maps the current dispute over LLM understanding while arguing that the real gap is methodological as much as rhetorical.
 - [[../sources/Source - The Generative AI Paradox|The Generative AI Paradox]] — `existing_deep`; recent; central; high. Strong current critique of reading fluent generation as evidence of robust understanding.
 - [[../sources/Source - Mind Design III|Mind Design III]] — `existing_deep`; foundational; supporting; medium. Historical source container for classic skeptical arguments about strong AI and intentionality.
 - [[../sources/Source - Language Models Mostly Know What They Know|Language Models Mostly Know What They Know]] — `existing_deep`; recent; supporting; medium. Useful qualification source because skepticism must also account for bounded self-evaluation.
 - [[../sources/Source - The Bitter Lesson|The Bitter Lesson]] — `existing_deep`; foundational; supporting; medium. Methodological caution that humanly satisfying knowledge-rich strategies often lose to more general compute-leveraging methods.
-- *No Place for Semantics* — `index_only`; critical; central; high. Strong semantics-skeptical candidate already triaged as near-term relevant.
-- *Do Language Models Understand Us?* — `index_only`; critical; central; high. Likely bridge between understanding skepticism and current meaning/reference debates.
+- [[../sources/Source - Computing Machinery and Intelligence|Computing Machinery and Intelligence]] — `existing_deep`; foundational; supporting; medium. Founding behavioral criterion source that later skeptical arguments contest rather than ignore.
+- [[../sources/Source - Common Sense, the Turing Test, and the Quest for Real AI|Common Sense, the Turing Test, and the Quest for Real AI]] — `existing_deep`; critical; central; high. Strong common-sense critique of treating fluent dialogue as evidence of genuine intelligence.
+- [[../sources/Source - Minds, Brains, and Programs|Minds, Brains, and Programs]] — `existing_deep`; foundational; central; high. Canonical Chinese Room argument against inferring understanding from formal symbol processing.
+- [[../sources/Source - Minds, Brains and Science|Minds, Brains and Science]] — `existing_brief`; historical; supporting; medium. Concise wider Searlean framework for skepticism about program-based mentality.
+- [[../sources/Source - No Place for Semantics|No Place for Semantics]] — `existing_deep`; critical; central; high. Meaning-as-role argument rejecting an autonomous theoretical semantics while separating intralinguistic form from extralinguistic action and use.
+- [[../sources/Source - Do Language Models Understand Us|Do Language Models Understand Us?]] — `existing_deep`; critical; central; high. Strong affirmative reply arguing that large language models already illuminate understanding, social intelligence, and dialogic cognition.
 - [[../sources/Source - Why Large Language Models Are Poor Theories of Human Linguistic Cognition|Why Large Language Models Are Poor Theories of Human Linguistic Cognition]] — `existing_brief`; critical; central; high. Direct reply source for theory-of-language and cognition claims.
-- *LLMs are Semantic Reasoners rather than symbolic reasoners* — `index_only`; recent; supporting; medium. Could sharpen the skeptical dispute if it proves substantive rather than rhetorical.
-- *Large Language Models Pass the Turing Test* — `index_only`; recent; supporting; medium. Candidate for separating behavioral impressiveness from deeper understanding claims.
+- [[../sources/Source - Why Linguistics Will Thrive in the 21st Century|Why Linguistics Will Thrive in the 21st Century]] — `existing_brief`; critical; central; medium. Direct reply insisting that predictive success does not replace interpretable linguistic theory or solve the acquisition problem.
+- [[../sources/Source - Testing AI on Language Comprehension Tasks Reveals Insensitivity to Underlying Meaning|Testing AI on Language Comprehension Tasks Reveals Insensitivity to Underlying Meaning]] — `existing_brief`; critical; central; high. Comprehension-benchmark critique tying fluent output to weak underlying semantic sensitivity.
+- [[../sources/Source - Noam Chomsky The False Promise of ChatGPT|Noam Chomsky: The False Promise of ChatGPT]] — `existing_brief`; historical; supporting; medium. High-visibility public statement of the anti-LLM explanatory critique.
+- [[../sources/Source - Fundamental Principles of Linguistic Structure Are Not Represented by o3|Fundamental Principles of Linguistic Structure Are Not Represented by o3]] — `existing_brief`; critical; supporting; medium. Current syntax-focused counterclaim that surface success does not amount to hierarchical structural competence.
+- [[../sources/Source - LLMs Are Semantic Reasoners Rather than Symbolic Reasoners|LLMs Are Semantic Reasoners Rather than Symbolic Reasoners]] — `existing_brief`; recent; supporting; medium. Reasoning-focused source arguing that semantic scaffolding, not robust symbolic reasoning, explains much in-context success.
+- [[../sources/Source - Large Language Models Pass the Turing Test|Large Language Models Pass the Turing Test]] — `existing_brief`; recent; supporting; medium. Behavioral substitutability result useful for separating imitation success from deeper understanding claims.
 - [[../sources/Source - Artificial Intelligence The Very Idea|Artificial Intelligence: The Very Idea]] — `existing_brief`; foundational; supporting; medium. Historical skepticism and philosophy-of-AI background.
+- [[../sources/Source - Wittgenstein and the Problem of Machine Consciousness|Wittgenstein and the problem of machine consciousness]] — `existing_brief`; historical; supporting; low. Wittgensteinian caution against treating machine-mindedness claims as settled by symbolic performance alone.
 
 ## Gaps and Next Priorities
 
-- several high-value skeptical sources are indexed but not yet represented in overview prose elsewhere
-- criticism of linguistic-theory claims is thinner than criticism of meaning and understanding claims
-- historically important skeptical material exists in structured containers, but most of it remains deferred
+- several high-value skeptical sources remain indexed, but the strand now has a stronger historical backbone on Turing-test and strong-AI disputes
+- criticism of linguistic-theory claims is still thinner than criticism of meaning and understanding claims
 - the next deep ingests should probably come from the semantics-skeptical and linguistic-theory reply items already indexed in the archive bundle
 
 ## Related Strands and Pages

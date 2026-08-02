@@ -69,8 +69,6 @@ The bundle is therefore best treated as supporting but structurally important ba
   - Chapter 23: `Intelligence without Representation` by Rodney A. Brooks
   - Chapter 24: `What Does Biorobotics Offer Philosophy? A Tale of Two Navigation Systems` by Barbara Webb
 
-## Source Location
-- `raw/archive/John Haugeland (editor), Carl F. Craver (editor), Colin Klein (e - Mind Design III_ Philosophy, Psychology, and Artificial Intelligence (Mind Design, 3) (2023, The MIT Press) - libgen.li.pdf symlink`
 
 ## Open Questions
 - Which later chapters from the same volume best extend the present bridge after the current Part III and Part VI selections: modeling-the-world chapters or neuroscience chapters?

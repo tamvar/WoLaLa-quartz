@@ -58,8 +58,8 @@ The source therefore sits productively beside more skeptical and historically re
 - Source type: essay
 - Original publication context: originally published as a web essay by Rich Sutton; the local PDF is a faithful two-page capture of that essay and is used here as the substantive source.
 
-## Source Location
-- `raw/archive/The Bitter Lesson.pdf`
+## Source Access
+- Public source: [Rich Sutton, "The Bitter Lesson"](https://www.incompleteideas.net/IncIdeas/BitterLesson.html)
 
 ## Open Questions
 - How should Sutton's long-run methodological lesson be reconciled with arguments that some inductive biases or architectural priors are necessary for efficient language learning?

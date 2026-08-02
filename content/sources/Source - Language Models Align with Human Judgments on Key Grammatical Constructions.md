@@ -36,5 +36,6 @@ Alignment on selected constructions should not be overread. The main open questi
 - Title: *Language models align with human judgments on key grammatical constructions*
 - Source type: paper
 
-## Source Location
-- `raw/archive/AI-WoLaLa-related-papers symlink/2402.01676v2.pdf`
+## Source Access
+- Public source: [arXiv abstract page](https://arxiv.org/abs/2402.01676)
+- DOI / publisher: [PNAS article page](https://www.pnas.org/doi/10.1073/pnas.2400917121)

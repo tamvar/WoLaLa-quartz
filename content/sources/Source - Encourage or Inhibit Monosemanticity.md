@@ -37,5 +37,3 @@ The main caution is scope. Monosemanticity work can be highly technical without 
 - Year: 2024
 - Source type: paper
 
-## Source Location
-- `raw/inbox/Papers symlink/Encourage or Inhibit Monosemanticity?.pdf`

@@ -2,7 +2,7 @@
 title: Theoretical Linguistics and Language Models Overview
 type: overview
 status: active
-updated: 2026-07-24
+updated: 2026-07-29
 tags:
   - overview
   - strand-4
@@ -12,7 +12,7 @@ tags:
 
 ## Summary
 
-This strand tracks how language models bear on questions from theoretical linguistics, and how linguistic theory bears on claims about language-model competence. It remains only partially developed in the current wiki, but the repository already contains a promising bridge set.
+This strand tracks how language models bear on questions from theoretical linguistics, and how linguistic theory bears on claims about language-model competence. Its role is to organize competing theoretical programs and the kinds of model evidence they treat as significant, rather than to present all theory-facing sources as versions of one argument.
 
 ## Scope
 
@@ -45,7 +45,7 @@ It should not collapse into either the probing literature or the meaning/referen
 
 ## Current WoLaLa Coverage
 
-Coverage is partial.
+Coverage is partial but now structurally clearer than before.
 
 - existing subordinate materials:
   - [[Neural NLP Probing Overview]]
@@ -59,32 +59,184 @@ Coverage is partial.
   - [[../sources/Source - What Does BERT Learn About the Structure of Language|What Does BERT Learn About the Structure of Language]]
   - [[../sources/Source - BERT Rediscovers the Classical NLP Pipeline|BERT Rediscovers the Classical NLP Pipeline]]
 
-The wiki already contains useful bridge material, but not yet a strand-level theoretical map.
+The wiki now contains enough source diversity for a strand-level map, but the map has to keep distinct the different explanatory programs involved.
 
-## Representative Sources
+Recent additions strengthen exactly the kind of material this strand needed most: direct theory-facing disputes inside linguistics, multilingual structure bridges, and historically important empirical counterpoints.
+
+Where this strand uses probing or BERT-analysis results, it should now rely on [[../analyses/What Probing Evidence Can Support|What Probing Evidence Can Support]] for the evidential ladder rather than restating those method distinctions locally.
+
+## Theory Map
+
+### Formal-language and computational adequacy
+
+This family asks what kinds of formal description are adequate for natural language, what neural systems can generalize, and how formal classes relate to observed model behavior.
+
+- main anchors:
+  - [[../sources/Source - Three Models for the Description of Language|Three Models for the Description of Language]]
+  - [[../sources/Source - Neural Networks and the Chomsky Hierarchy|Neural Networks and the Chomsky Hierarchy]]
+  - [[../sources/Source - Compound Probabilistic Context-Free Grammars for Grammar Induction|Compound Probabilistic Context-Free Grammars for Grammar Induction]]
+  - [[../sources/Source - Are Pre-trained Language Models Aware of Phrases|Are Pre-trained Language Models Aware of Phrases]]
+  - [[../sources/Source - Recursive Neural Networks Can Learn Logical Semantics|Recursive Neural Networks Can Learn Logical Semantics]]
+
+### Generative and competence-oriented critique
+
+This family asks whether model success threatens strong anti-statistical arguments, and whether surface success can count as evidence about human linguistic cognition.
+
+- main anchors:
+  - [[../sources/Source - Review of B. F. Skinner's Verbal Behavior.md|Review of B. F. Skinner's Verbal Behavior]]
+  - [[../sources/Source - Why Large Language Models Are Poor Theories of Human Linguistic Cognition|Why Large Language Models Are Poor Theories of Human Linguistic Cognition]]
+  - [[../sources/Source - Why Linguistics Will Thrive in the 21st Century|Why Linguistics Will Thrive in the 21st Century]]
+  - [[../sources/Source - Fundamental Principles of Linguistic Structure Are Not Represented by o3|Fundamental Principles of Linguistic Structure Are Not Represented by o3]]
+  - [[../sources/Source - Nature, Nurture, and Universal Grammar|Nature, Nurture, and Universal Grammar]]
+
+### Usage-based, constructionist, and emergent alternatives
+
+This family treats linguistic structure as emerging from use, sequence learning, discourse practice, communication, and cultural evolution rather than only from a specialized innate grammar.
+
+- main anchors:
+  - [[../sources/Source - Distributional Models of Word Meaning|Distributional Models of Word Meaning]]
+  - [[../sources/Source - Distributional Semantics|Distributional Semantics]]
+  - [[../sources/Source - From Frequency to Meaning|From Frequency to Meaning]]
+  - [[../sources/Source - Constructing a Language|Constructing a Language]]
+  - [[../sources/Source - Emergent Grammar|Emergent Grammar]]
+  - [[../sources/Source - Constructions at Work|Constructions at Work]]
+  - [[../sources/Source - Construction Grammar Provides Unique Insight into Neural Language Models|Construction Grammar Provides Unique Insight into Neural Language Models]]
+  - [[../sources/Source - The Language Faculty That Wasn't|The Language Faculty That Wasn't]]
+
+### Lexical, semantic, and compositional theory
+
+This family asks how lexical meaning, composition, ontology, and communication should be theorized once distributional and deep-learning results are on the table.
+
+- main anchors:
+  - [[../sources/Source - Lexical Competence|Lexical Competence]]
+  - [[../sources/Source - Frege in Space|Frege in Space]]
+  - [[../sources/Source - Lexical Semantics with Large Language Models|Lexical Semantics with Large Language Models]]
+  - [[../sources/Source - A Statistical Semantic Parser that Integrates Syntax and Semantics|A Statistical Semantic Parser that Integrates Syntax and Semantics]]
+  - [[../sources/Source - Language, Logic and Ontology|Language, Logic and Ontology]]
+  - [[../sources/Source - Quantifiers Satisfying Semantic Universals are Simpler|Quantifiers Satisfying Semantic Universals are Simpler]]
+  - [[../sources/Source - The Communicative Function of Ambiguity in Language|The Communicative Function of Ambiguity in Language]]
+  - [[../sources/Source - Information Theory as a Bridge Between Language Function and Language Form|Information Theory as a Bridge Between Language Function and Language Form]]
+- supporting bridges:
+  - [[../sources/Source - Distributional Memory|Distributional Memory]]
+
+### Acquisition, learnability, and developmental pressure
+
+This family asks which learning problems language models illuminate and which remain distinctively human-acquisition problems.
+
+- main anchors:
+  - [[../sources/Source - On Language and Connectionism|On Language and Connectionism]]
+  - [[../sources/Source - Can Neural Networks Acquire a Structural Bias from Raw Linguistic Data|Can Neural Networks Acquire a Structural Bias from Raw Linguistic Data]]
+  - [[../sources/Source - Learning Music Helps You Read|Learning Music Helps You Read]]
+  - [[../sources/Source - Origins of Human Communication|Origins of Human Communication]]
+  - [[../sources/Source - A Probabilistic Model of Syntactic and Semantic Acquisition|A Probabilistic Model of Syntactic and Semantic Acquisition]]
+  - [[../sources/Source - What Artificial Neural Networks Can Tell Us About Human Language Acquisition|What Artificial Neural Networks Can Tell Us About Human Language Acquisition]]
+  - [[../sources/Source - The BabyLM Challenge|The BabyLM Challenge]]
+
+### Multilingual and typological evidence
+
+This family asks whether cross-lingual transfer, multilingual structure, or typological spread strengthens or weakens claims about abstract linguistic knowledge.
+
+- main anchors:
+  - [[../sources/Source - BERT Is Not an Interlingua|BERT Is Not an Interlingua]]
+  - [[../sources/Source - It's Not Greek to mBERT|It's Not Greek to mBERT]]
+  - [[../sources/Source - On the Multilingual Capabilities of Very Large-Scale English Language Models|On the Multilingual Capabilities of Very Large-Scale English Language Models]]
+  - [[../sources/Source - Deep Subjecthood|Deep Subjecthood]]
+  - [[../sources/Source - Finding Universal Grammatical Relations in Multilingual BERT|Finding Universal Grammatical Relations in Multilingual BERT]]
+  - [[../sources/Source - A Survey of Cross-lingual Word Embedding Models|A Survey of Cross-lingual Word Embedding Models]]
+
+### Model evaluation as theory-relevant evidence
+
+This family asks when model evaluation is itself a test of linguistic theory rather than only an engineering scorecard.
+
+- main anchors:
+  - [[../sources/Source - Quantifying Generalizations|Quantifying Generalizations]]
+  - [[../sources/Source - Language Models Align with Human Judgments on Key Grammatical Constructions|Language Models Align with Human Judgments on Key Grammatical Constructions]]
+  - [[../sources/Source - Neural Network Acceptability Judgments|Neural Network Acceptability Judgments]]
+  - [[../sources/Source - Probing What Different NLP Tasks Teach Machines about Function Word Comprehension|Probing What Different NLP Tasks Teach Machines about Function Word Comprehension]]
+  - [[../sources/Source - Targeted Syntactic Evaluation of Language Models|Targeted Syntactic Evaluation of Language Models]]
+  - [[../sources/Source - Investigating BERT's Knowledge of Language|Investigating BERT's Knowledge of Language]]
+  - [[../sources/Source - What Do RNN Language Models Learn About Filler-Gap Dependencies|What Do RNN Language Models Learn About Filler-Gap Dependencies?]]
+  - [[../sources/Source - Colorless Green Recurrent Networks Dream Hierarchically|Colorless Green Recurrent Networks Dream Hierarchically]]
+  - [[../sources/Source - Assessing BERT's Syntactic Abilities|Assessing BERT's Syntactic Abilities]]
+  - [[../sources/Source - The Roles of English in Evaluating Multilingual Language Models|The Roles of English in Evaluating Multilingual Language Models]]
+  - [[../sources/Source - Syntactic Structure from Deep Learning|Syntactic Structure from Deep Learning]]
+
+[[../sources/Source - Neural Network Acceptability Judgments|Warstadt et al. on CoLA]], [[../sources/Source - Investigating BERT's Knowledge of Language|Warstadt et al. on NPIs]], and [[../sources/Source - Colorless Green Recurrent Networks Dream Hierarchically|Gulordava et al.]] strengthen this family by showing that theory-facing syntax evidence depends strongly on task design. Acceptability classification, minimal pairs, surprisal-style agreement testing, and probing can all reveal something real, but they do not collapse into one evidential scale. [[../sources/Source - Deep Subjecthood|Papadimitriou et al.]] then extend the same lesson into multilingual grammar, while [[../sources/Source - The Roles of English in Evaluating Multilingual Language Models|Poelman and de Lhoneux]] caution that multilingual evaluation can become English-interface evaluation if prompt design is left uninterrogated.
+
+[[../sources/Source - Learning Music Helps You Read|Papadimitriou and Jurafsky]] and [[../sources/Source - Are Pre-trained Language Models Aware of Phrases|Kim et al. on phrase awareness]] add a narrower structural lesson. They do not show that language models instantiate a full linguistic theory, but they do show that transferable relational structure and recoverable constituency information are part of the empirical picture any such theory now has to address. [[../sources/Source - Quantifiers Satisfying Semantic Universals are Simpler|van de Pol et al.]] then extend the strand beyond syntax alone by showing how complexity-based explanation can illuminate semantic universals in a way that remains relevant to learnability and inductive-bias debates.
+
+## Representative Sources By Role
+
+### Foundational and organizing works
 
 - [[../sources/Source - Distributional Models of Word Meaning|Distributional Models of Word Meaning]] — `existing_deep`; foundational; central; high. Strong usage-based lexical-semantics anchor.
 - [[../sources/Source - Distributional Semantics|Distributional Semantics]] — `existing_deep`; survey; central; high. Broad theoretical program statement connecting classical distributional work to current models.
 - [[../sources/Source - Lexical Competence|Lexical Competence]] — `existing_deep`; foundational; central; high. Important bridge from linguistic theory to semantic competence claims.
+- [[../sources/Source - Frege in Space|Frege in Space]] — `existing_deep`; bridge; central; high. Explicit compositional-distributional program for linking vector meaning with syntax-guided semantic composition.
 - [[../sources/Source - What Does BERT Learn About the Structure of Language|What Does BERT Learn About the Structure of Language]] — `existing_deep`; bridge; supporting; high. Structure-sensitive competence evidence relevant to syntactic theory.
 - [[../sources/Source - BERT Rediscovers the Classical NLP Pipeline|BERT Rediscovers the Classical NLP Pipeline]] — `existing_deep`; bridge; supporting; medium. Layerwise linguistic organization as theory-relevant evidence.
+- [[../sources/Source - BERT|BERT]] — `existing_deep`; foundational; supporting; high. The base bidirectional pretraining paper behind many later theory-facing claims about linguistic structure in Transformers.
 - [[../sources/Source - Climbing Towards NLU|Climbing Towards NLU]] — `existing_deep`; critical; supporting; high. Pushes against treating form-sensitive success as adequate theoretical explanation.
 - [[../sources/Source - The Bitter Lesson|The Bitter Lesson]] — `existing_deep`; foundational; supporting; medium. Methodological pressure against assuming that durable progress must come from building human theoretical knowledge directly into systems.
+- [[../sources/Source - Review of B. F. Skinner's Verbal Behavior.md|Review of B. F. Skinner's Verbal Behavior]] — `existing_deep`; historical; supporting; medium. Classic anti-behaviorist challenge insisting that linguistic productivity and acquisition require more than reinforcement-based description.
 - [[../sources/Source - Modern Language Models Refute Chomsky|Modern Language Models Refute Chomsky]] — `existing_brief`; critical; central; high. Direct and intentionally strong theory-facing claim against anti-statistical skepticism.
 - [[../sources/Source - Why Large Language Models Are Poor Theories of Human Linguistic Cognition|Why Large Language Models Are Poor Theories of Human Linguistic Cognition]] — `existing_brief`; critical; central; high. Direct reply position pushing back on strong theoretical conclusions from LLM success.
+- [[../sources/Source - Fundamental Principles of Linguistic Structure Are Not Represented by o3|Fundamental Principles of Linguistic Structure Are Not Represented by o3]] — `existing_brief`; critical; supporting; medium. Current syntax-focused counterclaim that surface success does not amount to hierarchical structural competence.
+- [[../sources/Source - On the Proper Role of Linguistically-Oriented Deep Net Analysis in Linguistic Theorizing|On the Proper Role of Linguistically-Oriented Deep Net Analysis in Linguistic Theorizing]] — `existing_brief`; methodological; central; high. Clear statement of how probing-style deep-net analysis could function as linguistic theorizing rather than engineering commentary alone.
+- [[../sources/Source - Construction Grammar Provides Unique Insight into Neural Language Models|Construction Grammar Provides Unique Insight into Neural Language Models]] — `existing_brief`; bridge; supporting; medium. Constructionist argument that theory-facing model analysis must test form-meaning pairings and not only isolated syntactic cues.
+- [[../sources/Source - The Language Faculty That Wasn't|The Language Faculty That Wasn't]] — `existing_brief`; bridge; supporting; medium. Usage-based reply arguing that recursion emerges from sequence learning, processing limits, and cultural evolution rather than a dedicated language faculty.
+- [[../sources/Source - What Exactly Is Universal Grammar, and Has Anyone Seen It|What Exactly Is Universal Grammar, and Has Anyone Seen It]] — `existing_brief`; critical; supporting; medium. Anti-UG review challenging universality, convergence, and poverty-of-the-stimulus arguments.
+- [[../sources/Source - Lexical Semantics with Large Language Models|Lexical Semantics with Large Language Models]] — `existing_brief`; bridge; supporting; medium. Concrete lexical-semantics case study showing one way LLMs can inform theory without replacing it.
+- [[../sources/Source - The Communicative Function of Ambiguity in Language|The Communicative Function of Ambiguity in Language]] — `existing_deep`; bridge; supporting; medium. Information-theoretic functionalist counterpoint to any theory picture that treats ambiguity as evidence against communication-shaped structure.
+- [[../sources/Source - A Survey of Cross-lingual Word Embedding Models|A Survey of Cross-lingual Word Embedding Models]] — `existing_brief`; survey; supporting; medium. Multilingual representation survey clarifying alignment objectives and evaluation assumptions behind cross-lingual transfer claims.
+- [[../sources/Source - Learning Word Vectors for 157 Languages|Learning Word Vectors for 157 Languages]] — `existing_brief`; historical; supporting; medium. Broad multilingual lexical baseline useful for distinguishing coverage from stronger multilingual understanding claims.
+- [[../sources/Source - It's Not Greek to mBERT|It's Not Greek to mBERT]] — `existing_brief`; bridge; supporting; medium. Cross-lingual representation analysis asking how translation information is encoded inside mBERT.
 - [[../sources/Source - Quantifying Generalizations|Quantifying Generalizations]] — `existing_brief`; bridge; central; high. Narrow empirical comparison on quantification and human/LLM generalization.
 - [[../sources/Source - Language Models Align with Human Judgments on Key Grammatical Constructions|Language Models Align with Human Judgments on Key Grammatical Constructions]] — `existing_brief`; bridge; central; high. Grammatical-judgment comparison source with methodological relevance.
+- [[../sources/Source - Neural Network Acceptability Judgments|Neural Network Acceptability Judgments]] — `existing_brief`; methodological; supporting; high. CoLA source turning linguists' acceptability evidence into a scalable evaluation task while showing a large remaining gap to human judgments.
 - [[../sources/Source - BERT Is Not an Interlingua|BERT Is Not an Interlingua]] — `existing_brief`; critical; supporting; medium. Useful multilingual-theory bridge.
-- *On the Multilingual Capabilities of Very Large-Scale English Language Models* — `index_only`; recent; supporting; medium. Candidate for theory-relevant multilingual generalization.
-- *Constructing a Language* — `index_only`; foundational; supporting; medium. Usage-based background likely relevant when this strand deepens.
+- [[../sources/Source - Neural Networks and the Chomsky Hierarchy|Neural Networks and the Chomsky Hierarchy]] — `existing_deep`; bridge; central; high. Formal-language generalization study reconnecting neural evaluation with classical automata and memory classes.
+- [[../sources/Source - Recursive Neural Networks Can Learn Logical Semantics|Recursive Neural Networks Can Learn Logical Semantics]] — `existing_brief`; bridge; supporting; medium. Early semantics-facing neural result on entailment, contradiction, recursion, and quantification.
+- [[../sources/Source - Compound Probabilistic Context-Free Grammars for Grammar Induction|Compound Probabilistic Context-Free Grammars for Grammar Induction]] — `existing_brief`; bridge; supporting; medium. Modern probabilistic grammar-induction source keeping explicit latent syntax alive inside neural modeling.
+- [[../sources/Source - When Do You Need Billions of Words of Pretraining Data|When Do You Need Billions of Words of Pretraining Data?]] — `existing_brief`; methodological; supporting; high. Scaling-analysis source showing that probed linguistic structure saturates much earlier than broader NLU gains.
+- [[../sources/Source - On the Multilingual Capabilities of Very Large-Scale English Language Models|On the Multilingual Capabilities of Very Large-Scale English Language Models]] — `existing_brief`; recent; supporting; medium. Multilingual-transfer bridge on what English-dominant models can generalize across languages.
+- [[../sources/Source - Deep Subjecthood|Deep Subjecthood]] — `existing_brief`; bridge; supporting; high. Typology-sensitive subjecthood study showing that multilingual contextual representations can reflect higher-order grammatical organization across languages.
+- [[../sources/Source - Constructing a Language|Constructing a Language]] — `existing_deep`; foundational; supporting; medium. Selective deep usage-based acquisition anchor on constructions, abstraction, communication, and anti-formalist explanation.
 - [[../sources/Source - Constructions at Work|Constructions at Work]] — `existing_brief`; foundational; supporting; medium. Usage-based and constructionist background for the strand-4 debate.
-- *Emergent Grammar* — `index_only`; foundational; supporting; medium. Background for anti-formalist or usage-emergent views of structure.
+- [[../sources/Source - Emergent Grammar|Emergent Grammar]] — `existing_deep`; foundational; supporting; medium. Classic anti-formalist and discourse-emergent view of grammar, now represented as a theory-facing anchor rather than background only.
+- [[../sources/Source - Origins of Human Communication|Origins of Human Communication]] — `existing_brief`; bridge; supporting; medium. Selective language-origins bridge on shared intentionality, communicative motives, and the cultural conventionalization of grammar.
+- [[../sources/Source - Neural Generative Models and the Parallel Architecture of Language|Neural Generative Models and the Parallel Architecture of Language]] — `existing_brief`; bridge; supporting; medium. Critical review connecting LLM results to parallel-architecture questions about syntax, semantics, and enriched composition.
+- [[../sources/Source - Three Models for the Description of Language|Three Models for the Description of Language]] — `existing_deep`; foundational; central; high. Formal-language anchor distinguishing finite-state, phrase-structure, and transformational models and tying adequacy to structural description rather than surface sequencing alone.
+- [[../sources/Source - On Language and Connectionism|On Language and Connectionism]] — `existing_deep`; historical; central; high. Classic morphology-and-acquisition critique arguing that neural learning claims must still answer to structured productivity and linguistic adequacy.
+- [[../sources/Source - Finding Universal Grammatical Relations in Multilingual BERT|Finding Universal Grammatical Relations in Multilingual BERT]] — `existing_brief`; bridge; supporting; high. Multilingual structural-relations source asking whether grammatical-relation geometry aligns across languages in mBERT.
+- [[../sources/Source - Emergent Linguistic Structure in Artificial Neural Networks Trained by Self-Supervision|Emergent Linguistic Structure in Artificial Neural Networks Trained by Self-Supervision]] — `existing_brief`; bridge; central; high. Clear statement of the claim that substantial linguistic structure can emerge from self-supervised predictive objectives.
+- [[../sources/Source - Can Neural Networks Acquire a Structural Bias from Raw Linguistic Data|Can Neural Networks Acquire a Structural Bias from Raw Linguistic Data]] — `existing_brief`; bridge; supporting; high. Poverty-of-the-stimulus-style BERT study arguing that structural bias can emerge from raw-data pretraining in some domains but not all.
+- [[../sources/Source - A Corpus Investigation of Syntactic Embedding in Piraha|A Corpus Investigation of Syntactic Embedding in Pirahã]] — `existing_brief`; empirical; supporting; medium. Bounded recursion-and-universals dispute grounded in corpus evidence rather than slogan-level theoretical contrast.
+- [[../sources/Source - Linguistic Regularities in Continuous Space Word Representations|Linguistic Regularities in Continuous Space Word Representations]] — `existing_brief`; historical; supporting; high. Early vector-space regularities source that helped make distributional structure theoretically harder to dismiss.
+- [[../sources/Source - A Probabilistic Model of Syntactic and Semantic Acquisition|A Probabilistic Model of Syntactic and Semantic Acquisition]] — `existing_deep`; bridge; supporting; medium. Acquisition model showing how probabilistic learning can be combined with explicit compositional syntax-semantics rather than opposed to it.
+- [[../sources/Source - What Artificial Neural Networks Can Tell Us About Human Language Acquisition|What Artificial Neural Networks Can Tell Us About Human Language Acquisition]] — `existing_brief`; methodological; supporting; medium. Useful evidential standard for what neural learners can and cannot show about human acquisition.
+- [[../sources/Source - Structural, Functional, and Processing Perspectives on Linguistic Island Effects|Structural, Functional, and Processing Perspectives on Linguistic Island Effects]] — `existing_deep`; bridge; central; high. Review-level bridge on how classical island constraints split across structural, discourse, frequency, and processing explanations.
+- [[../sources/Source - On Chomsky and the Two Cultures of Statistical Learning|On Chomsky and the Two Cultures of Statistical Learning]] — `existing_brief`; critical; supporting; high. Early statistical-learning reply arguing that probabilistic engineering success is scientifically relevant rather than irrelevant.
+- [[../sources/Source - Nature, Nurture, and Universal Grammar|Nature, Nurture, and Universal Grammar]] — `existing_brief`; foundational; supporting; medium. Concise universal-grammar defense clarifying the nativist side of the acquisition problem.
+- [[../sources/Source - Information Theory as a Bridge Between Language Function and Language Form|Information Theory as a Bridge Between Language Function and Language Form]] — `existing_deep`; bridge; central; high. Explicit formal-functional reconciliation proposal through communication and complexity optimization.
+- [[../sources/Source - Syntactic Structure from Deep Learning|Syntactic Structure from Deep Learning]] — `existing_deep`; bridge; central; high. Review-level synthesis of what deep-learning evidence about syntax does and does not imply for linguistic theory.
+- [[../sources/Source - Why Linguistics Will Thrive in the 21st Century|Why Linguistics Will Thrive in the 21st Century]] — `existing_brief`; critical; central; high. Current reply arguing that LLM performance does not replace linguistic theory or solve the acquisition problem.
+- [[../sources/Source - Universal Dependencies|Universal Dependencies]] — `existing_brief`; methodological; supporting; medium. Theory-and-annotation bridge on grammatical relations and crosslinguistic morphosyntactic consistency.
+- [[../sources/Source - Targeted Syntactic Evaluation of Language Models|Targeted Syntactic Evaluation of Language Models]] — `existing_brief`; methodological; supporting; high. Controlled evaluation source clarifying how to test specific syntax-sensitive phenomena.
+- [[../sources/Source - Investigating BERT's Knowledge of Language|Investigating BERT's Knowledge of Language]] — `existing_brief`; methodological; supporting; high. NPI case study showing that acceptability, minimal-pair, cloze, and probing methods can support different conclusions about one phenomenon.
+- [[../sources/Source - What Do RNN Language Models Learn About Filler-Gap Dependencies|What Do RNN Language Models Learn About Filler-Gap Dependencies?]] — `existing_brief`; bridge; supporting; high. Filler-gap evaluation source showing partial structural generalization and incomplete island sensitivity in RNNs.
+- [[../sources/Source - Colorless Green Recurrent Networks Dream Hierarchically|Colorless Green Recurrent Networks Dream Hierarchically]] — `existing_brief`; bridge; supporting; high. Nonce-sentence agreement study giving strong early evidence that language-model training can support hierarchical syntax-sensitive behavior.
+- [[../sources/Source - Assessing BERT's Syntactic Abilities|Assessing BERT's Syntactic Abilities]] — `existing_brief`; bridge; supporting; medium. Early BERT result that made strong anti-transformer skepticism about syntax harder to sustain.
+- [[../sources/Source - The Roles of English in Evaluating Multilingual Language Models|The Roles of English in Evaluating Multilingual Language Models]] — `existing_brief`; methodological; supporting; medium. Evaluation-design caution showing that multilingual prompting choices affect how much a result can count as evidence about target-language understanding.
+- [[../sources/Source - The BabyLM Challenge|The BabyLM Challenge]] — `existing_brief`; methodological; supporting; medium. Acquisition-facing shared task that makes data-budget and developmentally plausible training questions empirically comparable.
+- [[../sources/Source - Papers in Structural and Transformational Linguistics|Papers in Structural and Transformational Linguistics]] — `existing_deep`; historical; supporting; medium. Selective deep Harris collection on distributional method, morphology, string analysis, discourse, computation, and transformations.
 
 ## Gaps and Next Priorities
 
-- the current wiki has almost no direct treatment of generative versus usage-based disputes
-- theory-facing multilingual and quantification work is present only as indexed candidates
-- the strongest near-term next batch is probably the Piantadosi/reply/quantification/grammatical-construction group already triaged in the archive bundle
+- the current wiki now has a clearer theory-facing bridge set, including stronger formal-semantics and communicative-function material, but it still lacks a deeper comparison of generative, formal, usage-based, and distributional explanatory commitments
+- empirical multilingual and self-supervised evidence is better represented than explicit formal-semantics material
+- the next deep ingests here should probably build from the newly strengthened historical and formal-language backbone rather than returning immediately to another narrow empirical slice
+- the key unresolved architectural question is whether comparison among formal, generative, and usage-based interpretations still needs its own synthesis page after this refactoring
 
 ## Related Strands and Pages
 

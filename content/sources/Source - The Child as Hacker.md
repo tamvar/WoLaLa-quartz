@@ -37,5 +37,5 @@ The main caution is that the source is not itself a language-model study. Its va
 - Year: 2020
 - Source type: article
 
-## Source Location
-- `raw/inbox/Papers symlink/[Trends in Cognitive Sciences 2020-nov vol. 24 iss. 11] The Child as Hacker{Rule, Joshua S._ Tenenbaum, Joshua B._ Piantadosi, Steven T.}(2020 November)[10.1016_j.tics.2020.07.005]{89484943} libgen.li.pdf`
+## Source Access
+- DOI / publisher: [DOI landing page](https://doi.org/10.1016/j.tics.2020.07.005)

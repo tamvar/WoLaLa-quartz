@@ -36,5 +36,3 @@ The main caution is temporal and methodological. This is not a source about cont
 - Title: *Constructions at Work: The Nature of Generalization in Language*
 - Source type: book
 
-## Source Location
-- `raw/inbox/Papers symlink/[Oxford Linguistics] Adele Goldberg - Constructions at Work_ The Nature of Generalization in Language (2006, Oxford University Press, USA) - libgen.li.pdf`

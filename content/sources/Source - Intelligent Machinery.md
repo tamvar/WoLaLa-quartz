@@ -36,5 +36,3 @@ The main caution is historical translation. Turing’s framework predates curren
 - Title: *Intelligent Machinery*
 - Source type: report or monograph
 
-## Source Location
-- `raw/inbox/Papers symlink/turing-intelligent-machinery-1948.pdf`

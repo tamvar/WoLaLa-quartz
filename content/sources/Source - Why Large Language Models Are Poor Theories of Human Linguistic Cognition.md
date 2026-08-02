@@ -36,5 +36,3 @@ The main caution is that a negative verdict on LLMs as theories of *human cognit
 - Title: *Why Large Language Models Are Poor Theories of Human Linguistic Cognition*
 - Source type: paper or reply article
 
-## Source Location
-- `raw/archive/AI-WoLaLa-related-papers symlink/Why_large_language_models_are_poor_theories_of_hum.pdf`

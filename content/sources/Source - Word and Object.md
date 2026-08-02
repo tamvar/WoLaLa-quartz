@@ -36,5 +36,3 @@ The main caution is that Quine’s framework is not a model-specific interventio
 - Title: *Word and Object*
 - Source type: book
 
-## Source Location
-- `raw/archive/AI symlink/Willard Van Orman Quine, Dagfinn Føllesdal (Preface), Patricia Smith Churchland (Foreword) - Word and Object-The MIT Press (2013) (1).pdf`

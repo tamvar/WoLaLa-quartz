@@ -36,5 +36,3 @@ The main caution is scope. This is a BERT-era multilingual representation argume
 - Title: *BERT is not an interlingua*
 - Source type: paper
 
-## Source Location
-- `raw/archive/BERT symlink/BERT is not an interlingua.pdf`
